@@ -1,0 +1,63 @@
+Model 1 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 1 Accuracy : 0.9197
+
+Model 1 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.86      0.81      1300
+           1       0.94      0.96      0.95      1515
+           2       0.97      0.97      0.97      1523
+           3       0.94      0.82      0.88      1547
+           4       0.97      0.97      0.97      1498
+
+    accuracy                           0.92      7383
+   macro avg       0.92      0.92      0.92      7383
+weighted avg       0.92      0.92      0.92      7383
+
+
+
+
+Model 2 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 2 Accuracy : 0.9178
+
+Model 2 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.86      0.81      1941
+           1       0.94      0.96      0.95      2284
+           2       0.97      0.97      0.97      2303
+           3       0.94      0.82      0.88      2287
+           4       0.98      0.97      0.98      2260
+
+    accuracy                           0.92     11075
+   macro avg       0.92      0.92      0.92     11075
+weighted avg       0.92      0.92      0.92     11075
+
+
+
+
+Model 3 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 3 Accuracy : 0.9163
+
+Model 3 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.87      0.81      2598
+           1       0.94      0.95      0.95      3077
+           2       0.97      0.97      0.97      3038
+           3       0.94      0.82      0.87      3045
+           4       0.98      0.97      0.98      3008
+
+    accuracy                           0.92     14766
+   macro avg       0.92      0.91      0.91     14766
+weighted avg       0.92      0.92      0.92     14766
+
+
+
+

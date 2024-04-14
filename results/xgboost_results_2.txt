@@ -1,0 +1,63 @@
+Model 1 Params:
+{'objective': 'multi:softmax', 'use_label_encoder': None, 'base_score': 0.5, 'booster': 'gbtree', 'callbacks': None, 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0, 'gpu_id': -1, 'grow_policy': 'depthwise', 'importance_type': None, 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_bin': 256, 'max_cat_threshold': 64, 'max_cat_to_onehot': 4, 'max_delta_step': 0, 'max_depth': 6, 'max_leaves': 0, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '()', 'n_estimators': 100, 'n_jobs': 0, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 0, 'reg_alpha': 0, 'reg_lambda': 1, 'sampling_method': 'uniform', 'scale_pos_weight': None, 'subsample': 1, 'tree_method': 'exact', 'validate_parameters': 1, 'verbosity': None, 'num_class': 5}
+
+Model 1 Accuracy : 0.9317
+
+Model 1 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.83      1297
+           1       0.97      0.94      0.96      1555
+           2       0.99      0.97      0.98      1543
+           3       0.94      0.84      0.89      1485
+           4       0.99      0.98      0.99      1474
+
+    accuracy                           0.93      7354
+   macro avg       0.93      0.93      0.93      7354
+weighted avg       0.94      0.93      0.93      7354
+
+
+
+
+Model 2 Params:
+{'objective': 'multi:softmax', 'use_label_encoder': None, 'base_score': 0.5, 'booster': 'gbtree', 'callbacks': None, 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0, 'gpu_id': -1, 'grow_policy': 'depthwise', 'importance_type': None, 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_bin': 256, 'max_cat_threshold': 64, 'max_cat_to_onehot': 4, 'max_delta_step': 0, 'max_depth': 6, 'max_leaves': 0, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '()', 'n_estimators': 100, 'n_jobs': 0, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 0, 'reg_alpha': 0, 'reg_lambda': 1, 'sampling_method': 'uniform', 'scale_pos_weight': None, 'subsample': 1, 'tree_method': 'exact', 'validate_parameters': 1, 'verbosity': None, 'num_class': 5}
+
+Model 2 Accuracy : 0.9308
+
+Model 2 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.91      0.83      1945
+           1       0.97      0.94      0.96      2368
+           2       0.99      0.98      0.98      2293
+           3       0.94      0.84      0.89      2257
+           4       1.00      0.98      0.99      2168
+
+    accuracy                           0.93     11031
+   macro avg       0.93      0.93      0.93     11031
+weighted avg       0.94      0.93      0.93     11031
+
+
+
+
+Model 3 Params:
+{'objective': 'multi:softmax', 'use_label_encoder': None, 'base_score': 0.5, 'booster': 'gbtree', 'callbacks': None, 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0, 'gpu_id': -1, 'grow_policy': 'depthwise', 'importance_type': None, 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_bin': 256, 'max_cat_threshold': 64, 'max_cat_to_onehot': 4, 'max_delta_step': 0, 'max_depth': 6, 'max_leaves': 0, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '()', 'n_estimators': 100, 'n_jobs': 0, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 0, 'reg_alpha': 0, 'reg_lambda': 1, 'sampling_method': 'uniform', 'scale_pos_weight': None, 'subsample': 1, 'tree_method': 'exact', 'validate_parameters': 1, 'verbosity': None, 'num_class': 5}
+
+Model 3 Accuracy : 0.9311
+
+Model 3 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.92      0.83      2600
+           1       0.97      0.94      0.96      3115
+           2       0.99      0.98      0.99      3051
+           3       0.95      0.83      0.88      3014
+           4       1.00      0.98      0.99      2928
+
+    accuracy                           0.93     14708
+   macro avg       0.93      0.93      0.93     14708
+weighted avg       0.94      0.93      0.93     14708
+
+
+
+

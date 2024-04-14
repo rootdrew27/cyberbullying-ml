@@ -1,0 +1,66 @@
+Model 1 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 1 Accuracy : 0.8294
+
+Model 1 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.55      0.47      0.50      1271
+           1       0.93      0.95      0.94      1520
+           2       0.97      0.97      0.97      1510
+           3       0.89      0.81      0.85      1537
+           4       0.98      0.98      0.98      1537
+           5       0.60      0.73      0.66      1364
+
+    accuracy                           0.83      8739
+   macro avg       0.82      0.82      0.82      8739
+weighted avg       0.83      0.83      0.83      8739
+
+
+
+
+Model 2 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 2 Accuracy : 0.8282
+
+Model 2 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.55      0.48      0.51      1910
+           1       0.93      0.95      0.94      2321
+           2       0.97      0.97      0.97      2299
+           3       0.90      0.81      0.85      2281
+           4       0.98      0.97      0.98      2282
+           5       0.59      0.71      0.64      2015
+
+    accuracy                           0.83     13108
+   macro avg       0.82      0.82      0.82     13108
+weighted avg       0.83      0.83      0.83     13108
+
+
+
+
+Model 3 Params:
+{'iterations': 100, 'learning_rate': 0.1, 'eval_metric': 'MultiClass'}
+
+Model 3 Accuracy : 0.8266
+
+Model 3 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.48      0.52      2573
+           1       0.93      0.95      0.94      3033
+           2       0.97      0.97      0.97      3070
+           3       0.90      0.80      0.85      3066
+           4       0.98      0.97      0.97      3031
+           5       0.58      0.72      0.64      2704
+
+    accuracy                           0.83     17477
+   macro avg       0.82      0.82      0.82     17477
+weighted avg       0.83      0.83      0.83     17477
+
+
+
+
