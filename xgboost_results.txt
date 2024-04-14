@@ -1,0 +1,66 @@
+Model 1 Params:
+{'objective': 'multi:softprob', 'use_label_encoder': None, 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'gpu_id': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'predictor': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'num_class': 6}
+
+Model 1 Accuracy : 0.8306
+
+Model 1 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.53      0.53      0.53      1285
+           1       0.98      0.94      0.96      1572
+           2       0.99      0.97      0.98      1508
+           3       0.92      0.82      0.87      1531
+           4       0.99      0.98      0.99      1517
+           5       0.55      0.67      0.61      1304
+
+    accuracy                           0.83      8717
+   macro avg       0.83      0.82      0.82      8717
+weighted avg       0.84      0.83      0.84      8717
+
+
+
+
+Model 2 Params:
+{'objective': 'multi:softprob', 'use_label_encoder': None, 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'gpu_id': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'predictor': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'num_class': 6}
+
+Model 2 Accuracy : 0.8291
+
+Model 2 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.54      0.53      1926
+           1       0.97      0.94      0.96      2328
+           2       0.99      0.98      0.98      2321
+           3       0.92      0.81      0.86      2260
+           4       0.99      0.99      0.99      2235
+           5       0.56      0.66      0.61      2006
+
+    accuracy                           0.83     13076
+   macro avg       0.83      0.82      0.82     13076
+weighted avg       0.84      0.83      0.83     13076
+
+
+
+
+Model 3 Params:
+{'objective': 'multi:softprob', 'use_label_encoder': None, 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'gpu_id': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'predictor': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'num_class': 6}
+
+Model 3 Accuracy : 0.8279
+
+Model 3 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.54      0.53      2581
+           1       0.97      0.94      0.95      3051
+           2       0.99      0.98      0.98      3058
+           3       0.93      0.81      0.87      3037
+           4       0.99      0.99      0.99      3005
+           5       0.56      0.65      0.60      2702
+
+    accuracy                           0.83     17434
+   macro avg       0.83      0.82      0.82     17434
+weighted avg       0.84      0.83      0.83     17434
+
+
+
+
