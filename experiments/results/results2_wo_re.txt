@@ -1,0 +1,200 @@
+Hyperparameters:
+
+{'booster': 'dart', 'n_estimators': 600, 'learning_rate': 0.22151, 'max_depth': 7, 'min_child_weight': 28, 'subsample': 0.6, 'colsample_bytree': 0.797, 'colsample_bylevel': 0.824, 'colsample_bynode': 0.003, 'alpha': 14.748, 'lambda': 12.322, 'gamma': 9.215}
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6979    0.6352    0.6651      3084
+           1     0.4536    0.5241    0.4863      1782
+
+    accuracy                         0.5945      4866
+   macro avg     0.5758    0.5797    0.5757      4866
+weighted avg     0.6084    0.5945    0.5996      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7063    0.7004    0.7034      3084
+           1     0.4889    0.4961    0.4925      1782
+
+    accuracy                         0.6256      4866
+   macro avg     0.5976    0.5982    0.5979      4866
+weighted avg     0.6267    0.6256    0.6261      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6802    0.8116    0.7401      3084
+           1     0.5101    0.3395    0.4077      1782
+
+    accuracy                         0.6387      4866
+   macro avg     0.5951    0.5756    0.5739      4866
+weighted avg     0.6179    0.6387    0.6184      4866
+
+
+Hyperparameters:
+
+{'booster': 'gbtree', 'n_estimators': 700, 'learning_rate': 0.07616, 'max_depth': 24, 'min_child_weight': 10, 'subsample': 0.56, 'colsample_bytree': 0.802, 'colsample_bylevel': 0.018, 'colsample_bynode': 0.081, 'alpha': 0.744, 'lambda': 8.253, 'gamma': 1.869}
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6590    0.9329    0.7723      3084
+           1     0.5860    0.1644    0.2568      1782
+
+    accuracy                         0.6515      4866
+   macro avg     0.6225    0.5487    0.5146      4866
+weighted avg     0.6322    0.6515    0.5835      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7070    0.6485    0.6765      3084
+           1     0.4678    0.5348    0.4991      1782
+
+    accuracy                         0.6069      4866
+   macro avg     0.5874    0.5917    0.5878      4866
+weighted avg     0.6194    0.6069    0.6115      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6377    0.9741    0.7708      3084
+           1     0.4839    0.0421    0.0774      1782
+
+    accuracy                         0.6328      4866
+   macro avg     0.5608    0.5081    0.4241      4866
+weighted avg     0.5813    0.6328    0.5168      4866
+
+
+Hyperparameters:
+
+{'booster': 'dart', 'n_estimators': 700, 'learning_rate': 0.27362, 'max_depth': 3, 'min_child_weight': 25, 'subsample': 0.921, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.034, 'colsample_bynode': 0.046, 'alpha': 13.56, 'lambda': 1.598, 'gamma': 2.889}
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7005    0.6440    0.6711      3084
+           1     0.4594    0.5236    0.4894      1782
+
+    accuracy                         0.5999      4866
+   macro avg     0.5800    0.5838    0.5802      4866
+weighted avg     0.6122    0.5999    0.6045      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7129    0.5918    0.6467      3084
+           1     0.4540    0.5875    0.5122      1782
+
+    accuracy                         0.5902      4866
+   macro avg     0.5835    0.5897    0.5795      4866
+weighted avg     0.6181    0.5902    0.5975      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6533    0.9232    0.7651      3084
+           1     0.5335    0.1521    0.2367      1782
+
+    accuracy                         0.6408      4866
+   macro avg     0.5934    0.5376    0.5009      4866
+weighted avg     0.6094    0.6408    0.5716      4866
+
+
+Hyperparameters:
+
+{'booster': 'dart', 'n_estimators': 600, 'learning_rate': 0.16411, 'max_depth': 10, 'min_child_weight': 9, 'subsample': 0.476, 'colsample_bytree': 0.099, 'colsample_bylevel': 0.523, 'colsample_bynode': 0.033, 'alpha': 2.662, 'lambda': 9.187, 'gamma': 13.668}
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6752    0.7847    0.7259      3084
+           1     0.4821    0.3468    0.4034      1782
+
+    accuracy                         0.6243      4866
+   macro avg     0.5786    0.5657    0.5646      4866
+weighted avg     0.6045    0.6243    0.6078      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7076    0.7163    0.7119      3084
+           1     0.4983    0.4877    0.4929      1782
+
+    accuracy                         0.6326      4866
+   macro avg     0.6029    0.6020    0.6024      4866
+weighted avg     0.6309    0.6326    0.6317      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6494    0.9471    0.7705      3084
+           1     0.5571    0.1150    0.1907      1782
+
+    accuracy                         0.6424      4866
+   macro avg     0.6032    0.5311    0.4806      4866
+weighted avg     0.6156    0.6424    0.5582      4866
+
+
+Hyperparameters:
+
+{'booster': 'dart', 'n_estimators': 400, 'learning_rate': 0.09002, 'max_depth': 6, 'min_child_weight': 39, 'subsample': 0.566, 'colsample_bytree': 0.182, 'colsample_bylevel': 0.114, 'colsample_bynode': 0.229, 'alpha': 14.869, 'lambda': 11.521, 'gamma': 13.942}
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.7042    0.4702    0.5639      3084
+           1     0.4179    0.6582    0.5112      1782
+
+    accuracy                         0.5390      4866
+   macro avg     0.5611    0.5642    0.5375      4866
+weighted avg     0.5994    0.5390    0.5446      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6960    0.8479    0.7645      3084
+           1     0.5771    0.3591    0.4428      1782
+
+    accuracy                         0.6689      4866
+   macro avg     0.6366    0.6035    0.6036      4866
+weighted avg     0.6525    0.6689    0.6467      4866
+
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6526    0.9154    0.7619      3084
+           1     0.5167    0.1566    0.2403      1782
+
+    accuracy                         0.6375      4866
+   macro avg     0.5846    0.5360    0.5011      4866
+weighted avg     0.6028    0.6375    0.5709      4866
+
+

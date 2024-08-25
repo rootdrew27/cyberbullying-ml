@@ -1,0 +1,17 @@
+Background
+
+Semi-Supervised Learning
+- Through the use of an query algorithm and labeled data, a larger dataset is composed. This larger dataset is believed to be more adaquate for training a model.
+
+- This method makes the assumption that their algorithm will accuractely label data the majority of the time.
+
+- Many of the methods used in semi-supervised learning rely on the consistency assumption, the low-density separation assumption, and the manifold assumption.
+
+Semi-Supervised Learning methods are domain specific! 
+
+
+
+
+
+
+
