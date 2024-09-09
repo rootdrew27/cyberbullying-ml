@@ -1434,57 +1434,57 @@
         },
         {
             "0": {
-                "precision": 0.968019680196802,
-                "recall": 0.978247358607831,
-                "f1-score": 0.9731066460587326,
+                "precision": 0.969790382244143,
+                "recall": 0.9776258545680547,
+                "f1-score": 0.9736923553079542,
                 "support": 1609.0
             },
             "1": {
-                "precision": 0.9113832853025937,
-                "recall": 0.8383035122597747,
-                "f1-score": 0.8733172247152227,
+                "precision": 0.9355077835433655,
+                "recall": 0.8363154406891982,
+                "f1-score": 0.8831350594821553,
                 "support": 1509.0
             },
             "2": {
-                "precision": 0.6217986896962477,
-                "recall": 0.7648351648351648,
-                "f1-score": 0.6859395532194481,
+                "precision": 0.5563155494756042,
+                "recall": 0.8937728937728938,
+                "f1-score": 0.685778527262507,
                 "support": 1365.0
             },
             "3": {
-                "precision": 0.9251700680272109,
-                "recall": 0.9571337172104927,
-                "f1-score": 0.9408805031446541,
+                "precision": 0.9684002633311389,
+                "recall": 0.9411388355726168,
+                "f1-score": 0.954574951330305,
                 "support": 1563.0
             },
             "4": {
-                "precision": 0.9762071378586424,
-                "recall": 0.9620689655172414,
-                "f1-score": 0.9690864883640152,
+                "precision": 0.9914893617021276,
+                "recall": 0.9641379310344828,
+                "f1-score": 0.9776223776223776,
                 "support": 1450.0
             },
             "5": {
-                "precision": 0.5983935742971888,
-                "recall": 0.48103309120258275,
-                "f1-score": 0.5333333333333333,
+                "precision": 0.6744548286604362,
+                "recall": 0.34947538337368844,
+                "f1-score": 0.4603934077618288,
                 "support": 1239.0
             },
-            "accuracy": 0.8437321121923297,
+            "accuracy": 0.8422438465941614,
             "macro avg": {
-                "precision": 0.8334954058964477,
-                "recall": 0.8302703016055145,
-                "f1-score": 0.8292772914725676,
+                "precision": 0.8493263614928025,
+                "recall": 0.8270777231684892,
+                "f1-score": 0.8225327797945213,
                 "support": 8735.0
             },
             "weighted avg": {
-                "precision": 0.8453951985311305,
-                "recall": 0.8437321121923297,
-                "f1-score": 0.8421801271083269,
+                "precision": 0.8607170479904867,
+                "recall": 0.8422438465941614,
+                "f1-score": 0.8374802544775057,
                 "support": 8735.0
             },
             "test_split": 0.2,
             "model_name": "CatBoostClassifier",
-            "model": {
+            "model_params": {
                 "nan_mode": "Min",
                 "eval_metric": "MultiClass",
                 "iterations": 1000,
@@ -1528,79 +1528,6 @@
                 "best_model_min_trees": 1,
                 "model_shrink_rate": 0,
                 "min_data_in_leaf": 1,
-                "text_processing": {
-                    "dictionaries": [
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "2",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "BiGram"
-                        },
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "1",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "Word"
-                        }
-                    ],
-                    "feature_processing": {
-                        "default": [
-                            {
-                                "dictionaries_names": [
-                                    "BiGram",
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "BoW"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            },
-                            {
-                                "dictionaries_names": [
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "NaiveBayes"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            }
-                        ]
-                    },
-                    "tokenizers": [
-                        {
-                            "number_token": "\ud83d\udd22",
-                            "skip_empty": "1",
-                            "number_process_policy": "LeaveAsIs",
-                            "tokenizer_id": "Space",
-                            "token_types": [
-                                "Number",
-                                "Unknown",
-                                "Word"
-                            ],
-                            "delimiter": " ",
-                            "languages": [],
-                            "lemmatizing": "0",
-                            "split_by_set": "0",
-                            "lowercasing": "0",
-                            "subtokens_policy": "SingleToken",
-                            "separator_type": "ByDelimiter"
-                        }
-                    ]
-                },
                 "loss_function": "MultiClass",
                 "learning_rate": 0.09484899789094924,
                 "score_function": "Cosine",
@@ -1608,61 +1535,84 @@
                 "leaf_estimation_iterations": 1,
                 "bootstrap_type": "Bayesian",
                 "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
             }
         },
         {
             "0": {
-                "precision": 0.9655313910545753,
-                "recall": 0.9735208936698386,
-                "f1-score": 0.9695096827358879,
-                "support": 2417.0
+                "precision": 0.9627139364303179,
+                "recall": 0.9788688626476072,
+                "f1-score": 0.9707241910631741,
+                "support": 1609.0
             },
             "1": {
-                "precision": 0.9075875486381323,
-                "recall": 0.8322925958965209,
-                "f1-score": 0.8683108422522103,
-                "support": 2242.0
+                "precision": 0.9369842460615154,
+                "recall": 0.8277004638833665,
+                "f1-score": 0.8789584799437016,
+                "support": 1509.0
             },
             "2": {
-                "precision": 0.6142574257425742,
-                "recall": 0.7621621621621621,
-                "f1-score": 0.6802631578947368,
-                "support": 2035.0
+                "precision": 0.5488351254480287,
+                "recall": 0.8974358974358975,
+                "f1-score": 0.6811231581873783,
+                "support": 1365.0
             },
             "3": {
-                "precision": 0.925531914893617,
-                "recall": 0.9564482029598309,
-                "f1-score": 0.940736119775421,
-                "support": 2365.0
+                "precision": 0.9709187045604759,
+                "recall": 0.9398592450415867,
+                "f1-score": 0.9551365409622887,
+                "support": 1563.0
             },
             "4": {
-                "precision": 0.9765698219306467,
-                "recall": 0.9661566991191469,
-                "f1-score": 0.9713353530645538,
-                "support": 2157.0
+                "precision": 0.9900497512437811,
+                "recall": 0.9606896551724138,
+                "f1-score": 0.9751487574378719,
+                "support": 1450.0
             },
             "5": {
-                "precision": 0.6111479761114798,
-                "recall": 0.48807631160572335,
-                "f1-score": 0.5427224513847967,
-                "support": 1887.0
+                "precision": 0.6872964169381107,
+                "recall": 0.34059725585149314,
+                "f1-score": 0.45547760388559094,
+                "support": 1239.0
             },
-            "accuracy": 0.8423261848431657,
+            "accuracy": 0.8394962793360046,
             "macro avg": {
-                "precision": 0.8334376797285041,
-                "recall": 0.8297761442355371,
-                "f1-score": 0.8288129345179344,
-                "support": 13103.0
+                "precision": 0.8494663634470383,
+                "recall": 0.8241918966720609,
+                "f1-score": 0.8194281219133343,
+                "support": 8735.0
             },
             "weighted avg": {
-                "precision": 0.8446229743693744,
-                "recall": 0.8423261848431657,
-                "f1-score": 0.8409159645432428,
-                "support": 13103.0
+                "precision": 0.8605328256871888,
+                "recall": 0.8394962793360046,
+                "f1-score": 0.834477108598132,
+                "support": 8735.0
             },
-            "test_split": 0.3,
+            "test_split": 0.2,
             "model_name": "CatBoostClassifier",
-            "model": {
+            "model_params": {
                 "nan_mode": "Min",
                 "eval_metric": "MultiClass",
                 "iterations": 1000,
@@ -1706,79 +1656,398 @@
                 "best_model_min_trees": 1,
                 "model_shrink_rate": 0,
                 "min_data_in_leaf": 1,
-                "text_processing": {
-                    "dictionaries": [
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "2",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "BiGram"
-                        },
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "1",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "Word"
-                        }
-                    ],
-                    "feature_processing": {
-                        "default": [
-                            {
-                                "dictionaries_names": [
-                                    "BiGram",
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "BoW"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            },
-                            {
-                                "dictionaries_names": [
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "NaiveBayes"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            }
-                        ]
-                    },
-                    "tokenizers": [
-                        {
-                            "number_token": "\ud83d\udd22",
-                            "skip_empty": "1",
-                            "number_process_policy": "LeaveAsIs",
-                            "tokenizer_id": "Space",
-                            "token_types": [
-                                "Number",
-                                "Unknown",
-                                "Word"
-                            ],
-                            "delimiter": " ",
-                            "languages": [],
-                            "lemmatizing": "0",
-                            "split_by_set": "0",
-                            "lowercasing": "0",
-                            "subtokens_policy": "SingleToken",
-                            "separator_type": "ByDelimiter"
-                        }
-                    ]
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09484899789094924,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9698461538461538,
+                "recall": 0.9794903666873834,
+                "f1-score": 0.9746444032158318,
+                "support": 1609.0
+            },
+            "1": {
+                "precision": 0.9265785609397944,
+                "recall": 0.8363154406891982,
+                "f1-score": 0.879136189481017,
+                "support": 1509.0
+            },
+            "2": {
+                "precision": 0.5624700813786501,
+                "recall": 0.8608058608058609,
+                "f1-score": 0.6803705848291836,
+                "support": 1365.0
+            },
+            "3": {
+                "precision": 0.968421052631579,
+                "recall": 0.9417786308381318,
+                "f1-score": 0.9549140447615958,
+                "support": 1563.0
+            },
+            "4": {
+                "precision": 0.9894142554693014,
+                "recall": 0.9668965517241379,
+                "f1-score": 0.9780258109522149,
+                "support": 1450.0
+            },
+            "5": {
+                "precision": 0.6454293628808865,
+                "recall": 0.3761097659402744,
+                "f1-score": 0.4752677205507394,
+                "support": 1239.0
+            },
+            "accuracy": 0.841785918717802,
+            "macro avg": {
+                "precision": 0.8436932445243941,
+                "recall": 0.8268994361141644,
+                "f1-score": 0.8237264589650971,
+                "support": 8735.0
+            },
+            "weighted avg": {
+                "precision": 0.8556887152125395,
+                "recall": 0.841785918717802,
+                "f1-score": 0.8383571822093207,
+                "support": 8735.0
+            },
+            "test_split": 0.2,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
                 },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09484899789094924,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9668711656441717,
+                "recall": 0.9794903666873834,
+                "f1-score": 0.9731398579808583,
+                "support": 1609.0
+            },
+            "1": {
+                "precision": 0.9308035714285714,
+                "recall": 0.8290258449304175,
+                "f1-score": 0.8769716088328076,
+                "support": 1509.0
+            },
+            "2": {
+                "precision": 0.5667799902865469,
+                "recall": 0.8549450549450549,
+                "f1-score": 0.6816588785046729,
+                "support": 1365.0
+            },
+            "3": {
+                "precision": 0.9690992767915845,
+                "recall": 0.9430582213691618,
+                "f1-score": 0.9559014267185474,
+                "support": 1563.0
+            },
+            "4": {
+                "precision": 0.9880112834978844,
+                "recall": 0.9662068965517241,
+                "f1-score": 0.9769874476987448,
+                "support": 1450.0
+            },
+            "5": {
+                "precision": 0.6408912188728703,
+                "recall": 0.3946731234866828,
+                "f1-score": 0.4885114885114885,
+                "support": 1239.0
+            },
+            "accuracy": 0.8423583285632513,
+            "macro avg": {
+                "precision": 0.8437427510869381,
+                "recall": 0.8278999179950709,
+                "f1-score": 0.8255284513745199,
+                "support": 8735.0
+            },
+            "weighted avg": {
+                "precision": 0.8557888646169419,
+                "recall": 0.8423583285632513,
+                "f1-score": 0.8397902715247614,
+                "support": 8735.0
+            },
+            "test_split": 0.2,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09484899789094924,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9586374695863747,
+                "recall": 0.9780719900703351,
+                "f1-score": 0.9682572189227934,
+                "support": 2417.0
+            },
+            "1": {
+                "precision": 0.934010152284264,
+                "recall": 0.8206958073148974,
+                "f1-score": 0.8736942070275404,
+                "support": 2242.0
+            },
+            "2": {
+                "precision": 0.5505142165759226,
+                "recall": 0.8943488943488943,
+                "f1-score": 0.6815203145478375,
+                "support": 2035.0
+            },
+            "3": {
+                "precision": 0.9681361850720209,
+                "recall": 0.9378435517970402,
+                "f1-score": 0.9527491408934707,
+                "support": 2365.0
+            },
+            "4": {
+                "precision": 0.990990990990991,
+                "recall": 0.9689383402874363,
+                "f1-score": 0.9798406000937646,
+                "support": 2157.0
+            },
+            "5": {
+                "precision": 0.6888657648283039,
+                "recall": 0.3508214096449391,
+                "f1-score": 0.4648876404494382,
+                "support": 1887.0
+            },
+            "accuracy": 0.8390444936274136,
+            "macro avg": {
+                "precision": 0.8485257965563128,
+                "recall": 0.8251199989105903,
+                "f1-score": 0.8201581869891408,
+                "support": 13103.0
+            },
+            "weighted avg": {
+                "precision": 0.859228672795352,
+                "recall": 0.8390444936274136,
+                "f1-score": 0.8341604838998997,
+                "support": 13103.0
+            },
+            "test_split": 0.3,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
                 "loss_function": "MultiClass",
                 "learning_rate": 0.09420499950647354,
                 "score_function": "Cosine",
@@ -1786,61 +2055,84 @@
                 "leaf_estimation_iterations": 1,
                 "bootstrap_type": "Bayesian",
                 "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
             }
         },
         {
             "0": {
-                "precision": 0.9636308068459658,
-                "recall": 0.9731481481481481,
-                "f1-score": 0.9683660933660934,
-                "support": 3240.0
+                "precision": 0.9586877278250304,
+                "recall": 0.9793131981795614,
+                "f1-score": 0.9688907081457224,
+                "support": 2417.0
             },
             "1": {
-                "precision": 0.9037593984962407,
-                "recall": 0.8171312032630863,
-                "f1-score": 0.8582649053909318,
-                "support": 2942.0
+                "precision": 0.9376596831885539,
+                "recall": 0.8184656556645852,
+                "f1-score": 0.8740176232436294,
+                "support": 2242.0
             },
             "2": {
-                "precision": 0.6071116292626056,
-                "recall": 0.7706252312245653,
-                "f1-score": 0.6791653081186827,
-                "support": 2703.0
+                "precision": 0.5421331761932823,
+                "recall": 0.9041769041769042,
+                "f1-score": 0.6778412230613373,
+                "support": 2035.0
             },
             "3": {
-                "precision": 0.922389898367724,
-                "recall": 0.95412551768079,
-                "f1-score": 0.9379893517068587,
-                "support": 3139.0
+                "precision": 0.9685177087888063,
+                "recall": 0.9365750528541226,
+                "f1-score": 0.9522785898538263,
+                "support": 2365.0
             },
             "4": {
-                "precision": 0.9716753022452504,
-                "recall": 0.9679972470750172,
-                "f1-score": 0.9698327874504395,
-                "support": 2906.0
+                "precision": 0.9923882017126546,
+                "recall": 0.9670839128419101,
+                "f1-score": 0.9795726696407607,
+                "support": 2157.0
             },
             "5": {
-                "precision": 0.6127226463104326,
-                "recall": 0.47401574803149604,
-                "f1-score": 0.5345172031076582,
-                "support": 2540.0
+                "precision": 0.7192393736017897,
+                "recall": 0.34075251722310546,
+                "f1-score": 0.46242358863718086,
+                "support": 1887.0
             },
-            "accuracy": 0.8386949055523755,
+            "accuracy": 0.838433946424483,
             "macro avg": {
-                "precision": 0.8302149469213699,
-                "recall": 0.8261738492371838,
-                "f1-score": 0.8246892748567775,
-                "support": 17470.0
+                "precision": 0.8531043118850196,
+                "recall": 0.8243945401566982,
+                "f1-score": 0.8191707337637428,
+                "support": 13103.0
             },
             "weighted avg": {
-                "precision": 0.8412955088370451,
-                "recall": 0.8386949055523755,
-                "f1-score": 0.8367865869057425,
-                "support": 17470.0
+                "precision": 0.8632338160559769,
+                "recall": 0.838433946424483,
+                "f1-score": 0.8332773919719173,
+                "support": 13103.0
             },
-            "test_split": 0.4,
+            "test_split": 0.3,
             "model_name": "CatBoostClassifier",
-            "model": {
+            "model_params": {
                 "nan_mode": "Min",
                 "eval_metric": "MultiClass",
                 "iterations": 1000,
@@ -1884,79 +2176,398 @@
                 "best_model_min_trees": 1,
                 "model_shrink_rate": 0,
                 "min_data_in_leaf": 1,
-                "text_processing": {
-                    "dictionaries": [
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "2",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "BiGram"
-                        },
-                        {
-                            "start_token_id": "0",
-                            "occurrence_lower_bound": "5",
-                            "skip_step": "0",
-                            "end_of_word_token_policy": "Insert",
-                            "token_level_type": "Word",
-                            "end_of_sentence_token_policy": "Skip",
-                            "gram_order": "1",
-                            "max_dictionary_size": "50000",
-                            "dictionary_id": "Word"
-                        }
-                    ],
-                    "feature_processing": {
-                        "default": [
-                            {
-                                "dictionaries_names": [
-                                    "BiGram",
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "BoW"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            },
-                            {
-                                "dictionaries_names": [
-                                    "Word"
-                                ],
-                                "feature_calcers": [
-                                    "NaiveBayes"
-                                ],
-                                "tokenizers_names": [
-                                    "Space"
-                                ]
-                            }
-                        ]
-                    },
-                    "tokenizers": [
-                        {
-                            "number_token": "\ud83d\udd22",
-                            "skip_empty": "1",
-                            "number_process_policy": "LeaveAsIs",
-                            "tokenizer_id": "Space",
-                            "token_types": [
-                                "Number",
-                                "Unknown",
-                                "Word"
-                            ],
-                            "delimiter": " ",
-                            "languages": [],
-                            "lemmatizing": "0",
-                            "split_by_set": "0",
-                            "lowercasing": "0",
-                            "subtokens_policy": "SingleToken",
-                            "separator_type": "ByDelimiter"
-                        }
-                    ]
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09420499950647354,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9656862745098039,
+                "recall": 0.9780719900703351,
+                "f1-score": 0.9718396711202466,
+                "support": 2417.0
+            },
+            "1": {
+                "precision": 0.9305135951661632,
+                "recall": 0.8242640499553969,
+                "f1-score": 0.8741721854304636,
+                "support": 2242.0
+            },
+            "2": {
+                "precision": 0.5557314756174794,
+                "recall": 0.8624078624078624,
+                "f1-score": 0.6759098786828422,
+                "support": 2035.0
+            },
+            "3": {
+                "precision": 0.9668989547038328,
+                "recall": 0.9386892177589852,
+                "f1-score": 0.9525852821282986,
+                "support": 2365.0
+            },
+            "4": {
+                "precision": 0.9905347846663511,
+                "recall": 0.9703291608715809,
+                "f1-score": 0.980327868852459,
+                "support": 2157.0
+            },
+            "5": {
+                "precision": 0.6633393829401089,
+                "recall": 0.38738738738738737,
+                "f1-score": 0.4891267982602877,
+                "support": 1887.0
+            },
+            "accuracy": 0.8403419064336412,
+            "macro avg": {
+                "precision": 0.8454507446006231,
+                "recall": 0.826858278075258,
+                "f1-score": 0.8239936140790997,
+                "support": 13103.0
+            },
+            "weighted avg": {
+                "precision": 0.8567663689797891,
+                "recall": 0.8403419064336412,
+                "f1-score": 0.8375731360465285,
+                "support": 13103.0
+            },
+            "test_split": 0.3,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
                 },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09420499950647354,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9641255605381166,
+                "recall": 0.9784857261067439,
+                "f1-score": 0.971252566735113,
+                "support": 2417.0
+            },
+            "1": {
+                "precision": 0.9289644822411206,
+                "recall": 0.8282783229259589,
+                "f1-score": 0.8757368545154445,
+                "support": 2242.0
+            },
+            "2": {
+                "precision": 0.5633528265107213,
+                "recall": 0.8520884520884521,
+                "f1-score": 0.6782710737336202,
+                "support": 2035.0
+            },
+            "3": {
+                "precision": 0.9681778552746295,
+                "recall": 0.9391120507399577,
+                "f1-score": 0.9534234814337841,
+                "support": 2365.0
+            },
+            "4": {
+                "precision": 0.9910122989593189,
+                "recall": 0.971256374594344,
+                "f1-score": 0.9810348864434558,
+                "support": 2157.0
+            },
+            "5": {
+                "precision": 0.6532188841201717,
+                "recall": 0.40328563857975624,
+                "f1-score": 0.4986893840104849,
+                "support": 1887.0
+            },
+            "accuracy": 0.8420209112417004,
+            "macro avg": {
+                "precision": 0.8448086512740131,
+                "recall": 0.8287510941725356,
+                "f1-score": 0.8264013744786505,
+                "support": 13103.0
+            },
+            "weighted avg": {
+                "precision": 0.8562490301357744,
+                "recall": 0.8420209112417004,
+                "f1-score": 0.8397440866936984,
+                "support": 13103.0
+            },
+            "test_split": 0.3,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09420499950647354,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9640572646969235,
+                "recall": 0.9768518518518519,
+                "f1-score": 0.9704123869385253,
+                "support": 3240.0
+            },
+            "1": {
+                "precision": 0.9308880308880308,
+                "recall": 0.8195105370496261,
+                "f1-score": 0.8716558206796818,
+                "support": 2942.0
+            },
+            "2": {
+                "precision": 0.5452906714736367,
+                "recall": 0.8953015168331484,
+                "f1-score": 0.6777762218176726,
+                "support": 2703.0
+            },
+            "3": {
+                "precision": 0.9674556213017751,
+                "recall": 0.9375597323988532,
+                "f1-score": 0.9522730949684517,
+                "support": 3139.0
+            },
+            "4": {
+                "precision": 0.9873993699684984,
+                "recall": 0.9707501720578114,
+                "f1-score": 0.9790039909769217,
+                "support": 2906.0
+            },
+            "5": {
+                "precision": 0.7007936507936507,
+                "recall": 0.3476377952755906,
+                "f1-score": 0.46473684210526317,
+                "support": 2540.0
+            },
+            "accuracy": 0.8381797366914711,
+            "macro avg": {
+                "precision": 0.8493141015204193,
+                "recall": 0.8246019342444803,
+                "f1-score": 0.8193097262477527,
+                "support": 17470.0
+            },
+            "weighted avg": {
+                "precision": 0.859895846988807,
+                "recall": 0.8381797366914711,
+                "f1-score": 0.8331527823426381,
+                "support": 17470.0
+            },
+            "test_split": 0.4,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
                 "loss_function": "MultiClass",
                 "learning_rate": 0.09346800297498704,
                 "score_function": "Cosine",
@@ -1964,6 +2575,421 @@
                 "leaf_estimation_iterations": 1,
                 "bootstrap_type": "Bayesian",
                 "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9562462281231141,
+                "recall": 0.9780864197530864,
+                "f1-score": 0.9670430271589868,
+                "support": 3240.0
+            },
+            "1": {
+                "precision": 0.9386309992132179,
+                "recall": 0.8110129163834127,
+                "f1-score": 0.8701677607585704,
+                "support": 2942.0
+            },
+            "2": {
+                "precision": 0.5384785005512679,
+                "recall": 0.9034406215316315,
+                "f1-score": 0.6747720364741642,
+                "support": 2703.0
+            },
+            "3": {
+                "precision": 0.9670836076366031,
+                "recall": 0.9359668684294361,
+                "f1-score": 0.9512708434515137,
+                "support": 3139.0
+            },
+            "4": {
+                "precision": 0.9873993699684984,
+                "recall": 0.9707501720578114,
+                "f1-score": 0.9790039909769217,
+                "support": 2906.0
+            },
+            "5": {
+                "precision": 0.7043918918918919,
+                "recall": 0.3283464566929134,
+                "f1-score": 0.44790547798066593,
+                "support": 2540.0
+            },
+            "accuracy": 0.8351459645105895,
+            "macro avg": {
+                "precision": 0.8487050995640989,
+                "recall": 0.8212672424747153,
+                "f1-score": 0.8150271894668037,
+                "support": 17470.0
+            },
+            "weighted avg": {
+                "precision": 0.8591534622037442,
+                "recall": 0.8351459645105895,
+                "f1-score": 0.8291852583961433,
+                "support": 17470.0
+            },
+            "test_split": 0.4,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09346800297498704,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9619945272119185,
+                "recall": 0.9765432098765432,
+                "f1-score": 0.9692142747740848,
+                "support": 3240.0
+            },
+            "1": {
+                "precision": 0.9276035617499032,
+                "recall": 0.8144119646498981,
+                "f1-score": 0.8673303167420815,
+                "support": 2942.0
+            },
+            "2": {
+                "precision": 0.5517733872887408,
+                "recall": 0.8575656677765445,
+                "f1-score": 0.671494785631518,
+                "support": 2703.0
+            },
+            "3": {
+                "precision": 0.9640874959190336,
+                "recall": 0.9407454603376871,
+                "f1-score": 0.9522734601741374,
+                "support": 3139.0
+            },
+            "4": {
+                "precision": 0.985709306378529,
+                "recall": 0.9731589814177564,
+                "f1-score": 0.9793939393939394,
+                "support": 2906.0
+            },
+            "5": {
+                "precision": 0.6593856655290102,
+                "recall": 0.38031496062992126,
+                "f1-score": 0.48239700374531835,
+                "support": 2540.0
+            },
+            "accuracy": 0.8371493989696622,
+            "macro avg": {
+                "precision": 0.8417589906795225,
+                "recall": 0.8237900407813918,
+                "f1-score": 0.8203506300768466,
+                "support": 17470.0
+            },
+            "weighted avg": {
+                "precision": 0.8530564909642723,
+                "recall": 0.8371493989696622,
+                "f1-score": 0.8338628515491554,
+                "support": 17470.0
+            },
+            "test_split": 0.4,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09346800297498704,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.9608616504854369,
+                "recall": 0.9774691358024692,
+                "f1-score": 0.969094247246022,
+                "support": 3240.0
+            },
+            "1": {
+                "precision": 0.9287901990811639,
+                "recall": 0.8246091094493542,
+                "f1-score": 0.8736046092906014,
+                "support": 2942.0
+            },
+            "2": {
+                "precision": 0.5566658542529856,
+                "recall": 0.8449870514243433,
+                "f1-score": 0.6711724948574787,
+                "support": 2703.0
+            },
+            "3": {
+                "precision": 0.9646943445570448,
+                "recall": 0.9401083147499204,
+                "f1-score": 0.952242658922233,
+                "support": 3139.0
+            },
+            "4": {
+                "precision": 0.9857242339832869,
+                "recall": 0.9741913282863042,
+                "f1-score": 0.9799238490827276,
+                "support": 2906.0
+            },
+            "5": {
+                "precision": 0.6531413612565445,
+                "recall": 0.39291338582677166,
+                "f1-score": 0.49065880039331367,
+                "support": 2540.0
+            },
+            "accuracy": 0.8389811104751002,
+            "macro avg": {
+                "precision": 0.8416462739360772,
+                "recall": 0.8257130542565271,
+                "f1-score": 0.8227827766320628,
+                "support": 17470.0
+            },
+            "weighted avg": {
+                "precision": 0.8530068429551825,
+                "recall": 0.8389811104751002,
+                "f1-score": 0.836131147109338,
+                "support": 17470.0
+            },
+            "test_split": 0.4,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "nan_mode": "Min",
+                "eval_metric": "MultiClass",
+                "iterations": 1000,
+                "sampling_frequency": "PerTree",
+                "leaf_estimation_method": "Newton",
+                "random_score_type": "NormalWithModelSizeDecrease",
+                "grow_policy": "SymmetricTree",
+                "penalties_coefficient": 1,
+                "boosting_type": "Plain",
+                "model_shrink_mode": "Constant",
+                "feature_border_type": "GreedyLogSum",
+                "bayesian_matrix_reg": 0.10000000149011612,
+                "eval_fraction": 0,
+                "force_unit_auto_pair_weights": false,
+                "l2_leaf_reg": 3,
+                "random_strength": 1,
+                "rsm": 1,
+                "boost_from_average": false,
+                "model_size_reg": 0.5,
+                "pool_metainfo_options": {
+                    "tags": {}
+                },
+                "use_best_model": false,
+                "class_names": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "random_seed": 0,
+                "depth": 6,
+                "posterior_sampling": false,
+                "border_count": 254,
+                "bagging_temperature": 1,
+                "classes_count": 0,
+                "auto_class_weights": "None",
+                "sparse_features_conflict_fraction": 0,
+                "leaf_estimation_backtracking": "AnyImprovement",
+                "best_model_min_trees": 1,
+                "model_shrink_rate": 0,
+                "min_data_in_leaf": 1,
+                "loss_function": "MultiClass",
+                "learning_rate": 0.09346800297498704,
+                "score_function": "Cosine",
+                "task_type": "CPU",
+                "leaf_estimation_iterations": 1,
+                "bootstrap_type": "Bayesian",
+                "max_leaves": 64
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
             }
         }
     ]

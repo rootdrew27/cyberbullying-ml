@@ -1,0 +1,685 @@
+{
+    "params": {
+        "75": {
+            "classifier__class_weights": [
+                1,
+                0.11430985427114393
+            ],
+            "classifier__colsample_bylevel": 0.7922687259965006,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 1.49882466828616,
+            "classifier__learning_rate": 0.03507483274433669,
+            "classifier__min_data_in_leaf": 2,
+            "classifier__n_estimators": 545,
+            "classifier__random_state": 4132,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "char",
+            "vectorizer__max_df": 0.7622716082431618,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "183": {
+            "classifier__class_weights": [
+                1,
+                0.1320206357179886
+            ],
+            "classifier__colsample_bylevel": 0.5975342531042284,
+            "classifier__depth": 9,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.9623087864931277,
+            "classifier__learning_rate": 0.2910443073054451,
+            "classifier__min_data_in_leaf": 15,
+            "classifier__n_estimators": 1129,
+            "classifier__random_state": 3931,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "char_wb",
+            "vectorizer__max_df": 0.5064380221348483,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "226": {
+            "classifier__class_weights": [
+                1,
+                0.20617588471729703
+            ],
+            "classifier__colsample_bylevel": 0.6325852881036819,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.2753090293117335,
+            "classifier__learning_rate": 0.1311329373000261,
+            "classifier__min_data_in_leaf": 3,
+            "classifier__n_estimators": 685,
+            "classifier__random_state": 5416,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.7303714915384634,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "25": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.7456517967130712,
+            "classifier__depth": 9,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 5.220522127399522,
+            "classifier__learning_rate": 0.044726803416140305,
+            "classifier__min_data_in_leaf": 12,
+            "classifier__n_estimators": 1102,
+            "classifier__random_state": 391,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.3044763004228468,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "237": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.6896552077986526,
+            "classifier__depth": 7,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 2.2741219207518903,
+            "classifier__learning_rate": 0.08754894640829777,
+            "classifier__min_data_in_leaf": 19,
+            "classifier__n_estimators": 221,
+            "classifier__random_state": 7545,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.3872781136058871,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "98": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.6985785010525218,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 2.601243683019211,
+            "classifier__learning_rate": 0.03401228679793045,
+            "classifier__min_data_in_leaf": 8,
+            "classifier__n_estimators": 1161,
+            "classifier__random_state": 7209,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.3393480392282925,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "158": {
+            "classifier__class_weights": [
+                1,
+                0.8828514992461745
+            ],
+            "classifier__colsample_bylevel": 0.5574082699521004,
+            "classifier__depth": 4,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 0.7504468997658136,
+            "classifier__learning_rate": 0.23402616010485894,
+            "classifier__min_data_in_leaf": 8,
+            "classifier__n_estimators": 856,
+            "classifier__random_state": 3491,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.42153709070422,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "78": {
+            "classifier__class_weights": [
+                1,
+                0.09563977856322298
+            ],
+            "classifier__colsample_bylevel": 0.6776852845345367,
+            "classifier__depth": 3,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.8743010140203653,
+            "classifier__learning_rate": 0.21232835591938148,
+            "classifier__min_data_in_leaf": 17,
+            "classifier__n_estimators": 285,
+            "classifier__random_state": 6276,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "char_wb",
+            "vectorizer__max_df": 0.5096331540668995,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "167": {
+            "classifier__class_weights": [
+                1,
+                0.7739112947849784
+            ],
+            "classifier__colsample_bylevel": 0.957008601974495,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.612561447961042,
+            "classifier__learning_rate": 0.2828297033912683,
+            "classifier__min_data_in_leaf": 1,
+            "classifier__n_estimators": 128,
+            "classifier__random_state": 9140,
+            "classifier__score_function": "L2",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.39585793110551104,
+            "vectorizer__min_df": 2,
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "107": {
+            "classifier__class_weights": [
+                1,
+                0.2515006156016921
+            ],
+            "classifier__colsample_bylevel": 0.998167191595039,
+            "classifier__depth": 9,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 0.173261540507343,
+            "classifier__learning_rate": 0.2357423957677181,
+            "classifier__min_data_in_leaf": 13,
+            "classifier__n_estimators": 61,
+            "classifier__random_state": 8544,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.4490847646514777,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "176": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.8361011682621764,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 1.3605414698637157,
+            "classifier__learning_rate": 0.160834854187097,
+            "classifier__min_data_in_leaf": 12,
+            "classifier__n_estimators": 605,
+            "classifier__random_state": 7113,
+            "classifier__score_function": "L2",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.7707868654141804,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "182": {
+            "classifier__class_weights": [
+                1,
+                0.4250618107177686
+            ],
+            "classifier__colsample_bylevel": 0.5434939571385893,
+            "classifier__depth": 9,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 0.14070290920517126,
+            "classifier__learning_rate": 0.2801101294294631,
+            "classifier__min_data_in_leaf": 16,
+            "classifier__n_estimators": 702,
+            "classifier__random_state": 4899,
+            "classifier__score_function": "L2",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.8199264069264716,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "93": {
+            "classifier__class_weights": [
+                1,
+                0.291790667552814
+            ],
+            "classifier__colsample_bylevel": 0.9955473261721225,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 4.279246211281402,
+            "classifier__learning_rate": 0.06570490927650595,
+            "classifier__min_data_in_leaf": 11,
+            "classifier__n_estimators": 391,
+            "classifier__random_state": 4224,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.7807304307625299,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "46": {
+            "classifier__class_weights": [
+                1,
+                0.7766750466259277
+            ],
+            "classifier__colsample_bylevel": 0.5630115904902059,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.64634228270409,
+            "classifier__learning_rate": 0.03619588046564288,
+            "classifier__min_data_in_leaf": 7,
+            "classifier__n_estimators": 715,
+            "classifier__random_state": 8537,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.4551564661379539,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "32": {
+            "classifier__class_weights": [
+                1,
+                0.3377058981165303
+            ],
+            "classifier__colsample_bylevel": 0.5121328636460949,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 5.771700833189893,
+            "classifier__learning_rate": 0.15625897691032464,
+            "classifier__min_data_in_leaf": 16,
+            "classifier__n_estimators": 654,
+            "classifier__random_state": 36,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.3130900925872526,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "174": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.9451352347402706,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.8522238147994106,
+            "classifier__learning_rate": 0.25331529083391974,
+            "classifier__min_data_in_leaf": 9,
+            "classifier__n_estimators": 59,
+            "classifier__random_state": 3491,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.7613993807831473,
+            "vectorizer__min_df": 2,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "73": {
+            "classifier__class_weights": [
+                1,
+                0.3432550475341213
+            ],
+            "classifier__colsample_bylevel": 0.9912578192067086,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 0.614558870492725,
+            "classifier__learning_rate": 0.1409089007506523,
+            "classifier__min_data_in_leaf": 11,
+            "classifier__n_estimators": 1055,
+            "classifier__random_state": 9114,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.8729731630180539,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "157": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.9689579632556626,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 1.9183405433225238,
+            "classifier__learning_rate": 0.17455604262159746,
+            "classifier__min_data_in_leaf": 14,
+            "classifier__n_estimators": 126,
+            "classifier__random_state": 478,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.8170991768883484,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "2": {
+            "classifier__class_weights": [
+                1,
+                0.08284233512556607
+            ],
+            "classifier__colsample_bylevel": 0.9835100930037601,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.200272853356995,
+            "classifier__learning_rate": 0.2912552179514803,
+            "classifier__min_data_in_leaf": 10,
+            "classifier__n_estimators": 168,
+            "classifier__random_state": 1865,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.3133060985454785,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_SnowballStemmer"
+        },
+        "208": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.9492585265884859,
+            "classifier__depth": 9,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 2.0527840102811705,
+            "classifier__learning_rate": 0.08507374709725588,
+            "classifier__min_data_in_leaf": 11,
+            "classifier__n_estimators": 603,
+            "classifier__random_state": 9954,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.36171913527154714,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null
+        },
+        "190": {
+            "classifier__class_weights": [
+                1,
+                0.7186589250066462
+            ],
+            "classifier__colsample_bylevel": 0.7840089545998515,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 1.7626209823427883,
+            "classifier__learning_rate": 0.17954630045272146,
+            "classifier__min_data_in_leaf": 15,
+            "classifier__n_estimators": 1054,
+            "classifier__random_state": 7582,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.33079021809693576,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "181": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.7055827574029006,
+            "classifier__depth": 6,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 4.2872160333300116,
+            "classifier__learning_rate": 0.29667510977916645,
+            "classifier__min_data_in_leaf": 11,
+            "classifier__n_estimators": 166,
+            "classifier__random_state": 745,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "char",
+            "vectorizer__max_df": 0.5923037381573948,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        },
+        "28": {
+            "classifier__class_weights": [
+                1,
+                0.29359578873658154
+            ],
+            "classifier__colsample_bylevel": 0.5805042926681132,
+            "classifier__depth": 8,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 0.0868790334362719,
+            "classifier__learning_rate": 0.2552901295272291,
+            "classifier__min_data_in_leaf": 9,
+            "classifier__n_estimators": 888,
+            "classifier__random_state": 3217,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.9610363161346336,
+            "vectorizer__min_df": 1,
+            "vectorizer__ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer__preprocessor": "pp_SnowballStemmer"
+        },
+        "62": {
+            "classifier__class_weights": [
+                1,
+                1
+            ],
+            "classifier__colsample_bylevel": 0.9104113830568172,
+            "classifier__depth": 7,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 4.349163022825643,
+            "classifier__learning_rate": 0.037772568184289444,
+            "classifier__min_data_in_leaf": 17,
+            "classifier__n_estimators": 930,
+            "classifier__random_state": 8586,
+            "classifier__score_function": "L2",
+            "vectorizer": "CountVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.34492876786237275,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_LancasterStemmer"
+        },
+        "128": {
+            "classifier__class_weights": [
+                1,
+                0.3125956293558071
+            ],
+            "classifier__colsample_bylevel": 0.8753077906327693,
+            "classifier__depth": 7,
+            "classifier__grow_policy": "SymmetricTree",
+            "classifier__l2_leaf_reg": 3.0789835630499027,
+            "classifier__learning_rate": 0.061127559469316556,
+            "classifier__min_data_in_leaf": 15,
+            "classifier__n_estimators": 591,
+            "classifier__random_state": 3751,
+            "classifier__score_function": "Cosine",
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer__analyzer": "word",
+            "vectorizer__max_df": 0.45726559010002754,
+            "vectorizer__min_df": 3,
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "pp_PorterStemmer"
+        }
+    },
+    "mean_test_score": {
+        "75": 0.6821559220059653,
+        "183": 0.6750581052637692,
+        "226": 0.6730558230573602,
+        "25": 0.6661024815892072,
+        "237": 0.657630941406895,
+        "98": 0.657538626134341,
+        "158": 0.657538626134341,
+        "78": 0.6544925186953332,
+        "167": 0.6529283942321996,
+        "107": 0.6528291040432923,
+        "176": 0.6513747264033962,
+        "182": 0.6511752212732973,
+        "93": 0.6505561568061569,
+        "46": 0.6499600424389333,
+        "32": 0.6499312123216077,
+        "174": 0.6490184583934584,
+        "73": 0.6488012224854329,
+        "157": 0.6487784048741198,
+        "2": 0.6477979633802979,
+        "208": 0.647301308396184,
+        "190": 0.6472985827672559,
+        "181": 0.6464998963902917,
+        "28": 0.645972611459337,
+        "62": 0.6454713796321732,
+        "128": 0.6451868533037584
+    },
+    "std_test_score": {
+        "75": 0.07900300186263313,
+        "183": 0.035452056733356115,
+        "226": 0.0761809860689148,
+        "25": 0.08485960789829497,
+        "237": 0.0719877155212487,
+        "98": 0.0693042923216144,
+        "158": 0.0693042923216144,
+        "78": 0.050899897699863,
+        "167": 0.03832674883021083,
+        "107": 0.058464511307165394,
+        "176": 0.07524245258021478,
+        "182": 0.0956553043592153,
+        "93": 0.07335607352089982,
+        "46": 0.07309724895138504,
+        "32": 0.07304593628105012,
+        "174": 0.08676282895709786,
+        "73": 0.06369976099679985,
+        "157": 0.06373578630678657,
+        "2": 0.1270748287911411,
+        "208": 0.06255484005006495,
+        "190": 0.07342018647801991,
+        "181": 0.03549640100197319,
+        "28": 0.06855100886995628,
+        "62": 0.07818110805512928,
+        "128": 0.06144178833763816
+    },
+    "mean_fit_time": {
+        "75": 41.60052806138992,
+        "183": 150.99348789453506,
+        "226": 41.17817097902298,
+        "25": 90.02693057060242,
+        "237": 13.487868249416351,
+        "98": 128.11836504936218,
+        "158": 52.34021610021591,
+        "78": 21.644777357578278,
+        "167": 6.447349488735199,
+        "107": 7.023504793643951,
+        "176": 44.33405166864395,
+        "182": 90.7990512251854,
+        "93": 30.227165162563324,
+        "46": 57.03982239961624,
+        "32": 57.26920801401138,
+        "174": 3.74031400680542,
+        "73": 92.34115648269653,
+        "157": 10.86896961927414,
+        "2": 21.460765838623047,
+        "208": 45.34569001197815,
+        "190": 118.02091270685196,
+        "181": 12.600684762001038,
+        "28": 88.7893939614296,
+        "62": 75.3580133318901,
+        "128": 52.12493294477463
+    }
+}

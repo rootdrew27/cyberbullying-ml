@@ -1,0 +1,731 @@
+{
+    "meta": {
+        "name": "exp3_1.json",
+        "description": "Testing models trained on Dataset 1. This experiment sets the Offensive class from Dataset 2 as the positive (cyberbullying) class."
+    },
+    "results": [
+        {
+            "0": {
+                "precision": 0.2985046553183485,
+                "recall": 0.9787234042553191,
+                "f1-score": 0.45748054194292304,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9931588340273647,
+                "recall": 0.5731860837720302,
+                "f1-score": 0.726870328713446,
+                "support": 17476.0
+            },
+            "accuracy": 0.6366620010618274,
+            "macro avg": {
+                "precision": 0.6458317446728566,
+                "recall": 0.7759547440136747,
+                "f1-score": 0.5921754353281845,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8844294792538072,
+                "recall": 0.6366620010618274,
+                "f1-score": 0.6847046315998399,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "XGBClassifier",
+            "model_params": {
+                "objective": "binary:logistic",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": null,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 115,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": 0.17097431497667434,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": null
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.30916699104710005,
+                "recall": 0.9796484736355227,
+                "f1-score": 0.4700051778977735,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9936799770180983,
+                "recall": 0.5937857633325704,
+                "f1-score": 0.7433647336939002,
+                "support": 17476.0
+            },
+            "accuracy": 0.6541821516482456,
+            "macro avg": {
+                "precision": 0.6514234840325992,
+                "recall": 0.7867171184840465,
+                "f1-score": 0.6066849557958369,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8865379521373634,
+                "recall": 0.6541821516482456,
+                "f1-score": 0.7005776764301888,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "XGBClassifier",
+            "model_params": {
+                "objective": "binary:logistic",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": null,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 115,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": 0.17097431497667434,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": null
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.31885668114331883,
+                "recall": 0.9734813444341659,
+                "f1-score": 0.4803712720632988,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9920502865594379,
+                "recall": 0.6140993362325475,
+                "f1-score": 0.7586060648900828,
+                "support": 17476.0
+            },
+            "accuracy": 0.6703508856605048,
+            "macro avg": {
+                "precision": 0.6554534838513784,
+                "recall": 0.7937903403333567,
+                "f1-score": 0.6194886684766908,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8866800050610802,
+                "recall": 0.6703508856605048,
+                "f1-score": 0.7150559209093278,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "XGBClassifier",
+            "model_params": {
+                "objective": "binary:logistic",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": null,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 115,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": 0.17097431497667434,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": null
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.3198639727945589,
+                "recall": 0.9861239592969473,
+                "f1-score": 0.48304508722906125,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9958026303516463,
+                "recall": 0.6108949416342413,
+                "f1-score": 0.7572436784055041,
+                "support": 17476.0
+            },
+            "accuracy": 0.6696269124957768,
+            "macro avg": {
+                "precision": 0.6578333015731026,
+                "recall": 0.7985094504655943,
+                "f1-score": 0.6201443828172827,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8900026850619298,
+                "recall": 0.6696269124957768,
+                "f1-score": 0.7143252928084577,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "XGBClassifier",
+            "model_params": {
+                "objective": "binary:logistic",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": null,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 115,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": 0.17097431497667434,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": null
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.31629488846653997,
+                "recall": 0.9750231267345051,
+                "f1-score": 0.47764350453172205,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9924454392837158,
+                "recall": 0.6088921950102998,
+                "f1-score": 0.7547343783247039,
+                "support": 17476.0
+            },
+            "accuracy": 0.6662001061827308,
+            "macro avg": {
+                "precision": 0.6543701638751278,
+                "recall": 0.7919576608724024,
+                "f1-score": 0.616188941428213,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8866123278256289,
+                "recall": 0.6662001061827307,
+                "f1-score": 0.711363283980834,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "class_weights": [
+                    1,
+                    0.17097431497667434
+                ],
+                "random_state": 115
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.31313031441566147,
+                "recall": 0.9765649090348443,
+                "f1-score": 0.47420828030246315,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9928335690711928,
+                "recall": 0.6024834058136873,
+                "f1-score": 0.7499020690146362,
+                "support": 17476.0
+            },
+            "accuracy": 0.6610357642743375,
+            "macro avg": {
+                "precision": 0.6529819417434272,
+                "recall": 0.7895241574242657,
+                "f1-score": 0.6120551746585496,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8864443777565594,
+                "recall": 0.6610357642743375,
+                "f1-score": 0.7067496506163748,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "class_weights": [
+                    1,
+                    0.17097431497667434
+                ],
+                "random_state": 115
+            },
+            "vectorizer": "CountVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.3498166462940327,
+                "recall": 0.9707061362935554,
+                "f1-score": 0.5142950498284594,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9918941979522184,
+                "recall": 0.6651979858091096,
+                "f1-score": 0.7963419646526921,
+                "support": 17476.0
+            },
+            "accuracy": 0.7130170375018099,
+            "macro avg": {
+                "precision": 0.6708554221231255,
+                "recall": 0.8179520610513324,
+                "f1-score": 0.6553185072405758,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8913942944806467,
+                "recall": 0.7130170375018099,
+                "f1-score": 0.7521951359073382,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "class_weights": [
+                    1,
+                    0.17097431497667434
+                ],
+                "random_state": 115
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "0": {
+                "precision": 0.3722974578284628,
+                "recall": 0.9663891458526056,
+                "f1-score": 0.5375182231369522,
+                "support": 3243.0
+            },
+            "1": {
+                "precision": 0.9911389317941631,
+                "recall": 0.6976424811169604,
+                "f1-score": 0.818887060482923,
+                "support": 17476.0
+            },
+            "accuracy": 0.7397075148414499,
+            "macro avg": {
+                "precision": 0.6817181948113129,
+                "recall": 0.832015813484783,
+                "f1-score": 0.6782026418099376,
+                "support": 20719.0
+            },
+            "weighted avg": {
+                "precision": 0.8942760088697573,
+                "recall": 0.7397075148414499,
+                "f1-score": 0.7748463664574883,
+                "support": 20719.0
+            },
+            "num_OOV_feats": 8140,
+            "neg_to_pos_ratio": 0.17097431497667434,
+            "model_name": "CatBoostClassifier",
+            "model_params": {
+                "class_weights": [
+                    1,
+                    0.17097431497667434
+                ],
+                "random_state": 115
+            },
+            "vectorizer": "TfidfVectorizer",
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            }
+        },
+        {
+            "cb": {
+                "precision": 0.43336623889437315,
+                "recall": 0.9821029082774049,
+                "f1-score": 0.6013698630136987,
+                "support": 894.0
+            },
+            "notcb": {
+                "precision": 0.8596491228070176,
+                "recall": 0.07865168539325842,
+                "f1-score": 0.14411764705882352,
+                "support": 1246.0
+            },
+            "accuracy": 0.45607476635514016,
+            "macro avg": {
+                "precision": 0.6465076808506953,
+                "recall": 0.5303772968353316,
+                "f1-score": 0.3727437550362611,
+                "support": 2140.0
+            },
+            "weighted avg": {
+                "precision": 0.6815664600883707,
+                "recall": 0.45607476635514016,
+                "f1-score": 0.33513796531286943,
+                "support": 2140.0
+            },
+            "model_name": "CountVectorizer",
+            "model_params": {
+                "objective": "binary:logistic",
+                "base_score": null,
+                "booster": null,
+                "callbacks": null,
+                "colsample_bylevel": null,
+                "colsample_bynode": null,
+                "colsample_bytree": null,
+                "device": null,
+                "early_stopping_rounds": null,
+                "enable_categorical": false,
+                "eval_metric": null,
+                "feature_types": null,
+                "gamma": null,
+                "grow_policy": null,
+                "importance_type": null,
+                "interaction_constraints": null,
+                "learning_rate": null,
+                "max_bin": null,
+                "max_cat_threshold": null,
+                "max_cat_to_onehot": null,
+                "max_delta_step": null,
+                "max_depth": null,
+                "max_leaves": null,
+                "min_child_weight": null,
+                "missing": NaN,
+                "monotone_constraints": null,
+                "multi_strategy": null,
+                "n_estimators": null,
+                "n_jobs": null,
+                "num_parallel_tree": null,
+                "random_state": 115,
+                "reg_alpha": null,
+                "reg_lambda": null,
+                "sampling_method": null,
+                "scale_pos_weight": 0.7170765877957671,
+                "subsample": null,
+                "tree_method": null,
+                "validate_parameters": null,
+                "verbosity": 0
+            },
+            "vectorizer_params": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.int64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "stop_words": null,
+                "strip_accents": null,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "vocabulary": null
+            }
+        }
+    ]
+}

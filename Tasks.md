@@ -1,25 +1,4 @@
-# 7/30/24
-
-- Determine why the number of non-cyberbullying entries in Dataset 2 has changed
-- Perform experiment using primarily the DQE data in training. Testing can be done with both other datasets!!!
-- Perform CV properly for the inital testing on Dataset 1. Run these multiple times as embedding methods such as BOW can cause poor results to due important words not being "in the bag". 
-
-### Experiment 1
-
-1. Split Dataset 1 into train and test.
-2. Perform RandomCV search on the train portion.
-3. Train a model and test it. 
-
-### Experiment 2
-
-1. Write a script that gets data primarily obtained via DQE.
-    2. Add data from Dataset 2 to the Non-Cyberbullying class.
-2. Use CV testing to determine the best hyperparameters for this data. 
-3. Train a model and test it on Dataset 2 and 3 (ensure no data leakage!)
-
-Compare the results of the two experiments!
-
-### Stats
+### Dataset Stats
 
 Assuming Uniform Sampling
                Not CB    Age,  Ethnicity,  Gender,  Religion, Other CB
@@ -32,16 +11,6 @@ From DQE     25358
 
 ### Cyberbullying / Hate Speech Definitions
 
-**TweetBLM**: 
-Hateful text: This category of tweets
-containing information that is broadly defined as
-a form of expression that “attacks or diminishes,
-that incites violence or hate against groups, based
-on specific characteristics such as physical appearance, religion, descent, national or ethnic origin,
-sexual orientation, gender identity, or other,and it
-can occur with different linguistic styles, even in
-subtle forms or when humor is used (Fortuna and
-Nunes, 2018)”.
 
 
 **8/5/24**
@@ -53,4 +22,31 @@ Experimentation Ideas
 - Keep punctuation
 - Use bigrams, trigrams, etc
 
+**8/26/24**
+- Modify the CatBoostClassifier tests so that they save all catboost parameters (i.e. `m.get_all_params()`)
 
+**9/3/24**
+- Modify the XGBClassifier tests so that they save all parameters (i.e. `m.get_all_params()`)
+- Create list of papers to use for literature review
+- Get best Hyps for exp4
+- Run Exp3
+- Run Exp4
+
+**9/4/24**
+- Find 5 sets of hyperparameters for each model (via 5 fold CV) Use GridSearchCV
+- Test each set of hyperparameters on the test set
+- Compare the performance of each model
+
+- Create list of papers to use for literature review
+
+- Randomly remove swear words from the dataset during training (this should help bedias the dataset)
+
+- Types of Bias in NLP ([Paper](https://compass.onlinelibrary.wiley.com/doi/10.1111/lnc3.12432))
+    - Data Selection Bias
+    - Label Bias
+    - etc
+Additionally, bias can be introduced via unsupervised labeling, and through feature selection.
+Data Selection Bias is extremely relevant to the field of cyberbullyind detection, as the collection of many datasests is facilitated by querying techniques which favor particular keywords, for example, by querying for words commonly associated with hate. It would be understandable for a model to associate hateful words with a higher degree of hate speech, but hate speech which does not involve these words would be underrepresented. This may seem paradoxical, but a tweet such as "All brown men should politely leave this country before they deal with the consequences", might not be classified as hate speech, as it does not contain any hateful words. However, this does not mean that the statement is not hateful, or not harmful. 
+
+Generalizability
+Cross-Dataset: Cross-Domain & Cross-Platform
