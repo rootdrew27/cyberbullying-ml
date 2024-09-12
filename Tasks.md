@@ -38,6 +38,7 @@ Experimentation Ideas
 - Compare the performance of each model
 
 - Create list of papers to use for literature review
+    - https://arxiv.org/pdf/2402.16458 (mentions "swear word bias" )
 
 - Randomly remove swear words from the dataset during training (this should help bedias the dataset)
 
