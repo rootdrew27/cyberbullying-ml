@@ -1,18 +1,20 @@
 ## Current Tasks
 
-- 
+### High Level Tasks
+- ~~Fix Issue with CatBoost for D1.~~
+- Create experiments -> Perform experiments
+- Analyze results
 
-- Get hyps for Exp3 
-    - XGBoost (Running)
-    - CatBoost (Running)
-- Run Exp3
 
-- Get hyps for Exp4
-    - XGBoost 
-    - CatBoost 
-- Run Exp4
 
-- Get hyps for Exp5
-    - XGBoost 
-    - CatBoost 
-- Run Exp5
+### Low Level Tasks
+
+- Get hyps for D1
+- Run Exp1 Part 1 & 2
+
+- ~~Get hyps for D2~~
+- Run Exp2 Part 1 & 2
+
+- Get hyps for D3
+- Run Exp3 Part 1 & 2
+

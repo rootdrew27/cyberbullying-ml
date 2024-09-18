@@ -164,3 +164,4 @@ cython_debug/
 .vscode/
 models/
 data/
+catboost_info/

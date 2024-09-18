@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "name": "exp1_catb_results.json",
+        "description": ""
+    },
+    "results": [
+        {
+            "report": {
+                "0": {
+                    "precision": 0.06434053185793324,
+                    "recall": 0.5786516853932584,
+                    "f1-score": 0.115804690009637,
+                    "support": 1246.0
+                },
+                "1": {
+                    "precision": 0.9535480445938772,
+                    "recall": 0.5068667105634466,
+                    "f1-score": 0.6618965729025919,
+                    "support": 21262.0
+                },
+                "accuracy": 0.51084059001244,
+                "macro avg": {
+                    "precision": 0.5089442882259052,
+                    "recall": 0.5427591979783525,
+                    "f1-score": 0.3888506314561144,
+                    "support": 22508.0
+                },
+                "weighted avg": {
+                    "precision": 0.9043232107184113,
+                    "recall": 0.51084059001244,
+                    "f1-score": 0.6316659666255071,
+                    "support": 22508.0
+                }
+            },
+            "classifier_params": {
+                "learning_rate": 0.1,
+                "n_estimators": 1000,
+                "rsm": 0.75,
+                "depth": 10
+            },
+            "vectorizer_params": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "preprocessor": null,
+                "max_df": 0.5
+            },
+            "val_f1_macro_mean": 0.7264063528154514,
+            "val_f1_weighted_mean": 0.8292718185260052,
+            "drop_in_f1_macro_mean": 0.337555721359337,
+            "drop_in_f1_weighed_mean": 0.19760585190049806
+        }
+    ]
+}
