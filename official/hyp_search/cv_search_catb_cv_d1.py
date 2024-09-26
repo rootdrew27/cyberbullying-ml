@@ -97,7 +97,7 @@ if __name__ == '__main__':
             'params': []
         }
 
-        N_SPLITS = 6
+        N_SPLITS = 3
 
         logging.info(f'Starting CV for {len(param_sets)} folds (i.e. {len(param_sets) * N_SPLITS} splits)')
         for idx, params in enumerate(param_sets):

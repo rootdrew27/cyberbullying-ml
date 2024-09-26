@@ -48,7 +48,7 @@ if __name__ == '__main__':
         train_df = train_df.dropna()
 
         train_df.reset_index(drop=True, inplace=True)
-        train_df['class'] = train_df['class'].apply(lambda label : 0 if label == 0 else 1)
+        train_df['class'] = train_df['class'].apply(lambda label : 1 if label == 0 else 0)
 
         # split data into train and validation sets
         x_train, x_val, y_train, y_val = train_test_split(

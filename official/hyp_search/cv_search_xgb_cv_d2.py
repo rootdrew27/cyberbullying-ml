@@ -48,7 +48,7 @@ if __name__ == '__main__':
     train_df = train_df.dropna()
 
     train_df.reset_index(drop=True, inplace=True)
-    train_df['class'] = train_df['class'].apply(lambda label : 0 if label == 0 else 1)
+    train_df['class'] = train_df['class'].apply(lambda label : 1 if label == 0 else 0)
 
     # split data into train and validation sets
     x_train, x_val, y_train, y_val = train_test_split(
@@ -85,8 +85,7 @@ if __name__ == '__main__':
     keys = xgb_param_grid.keys()
     param_sets = [params for params in itertools.product(*iters)]
     # calculate the scale_pos_weight
-    pos_weight = (y_train == 0).sum() / (y_train == 1).sum()
-    logging.info(f'The positive weight is {pos_weight:.4f}\n')
+
     all_results = {
         'fit_time_mean': [],
         'fit_time_std_dev': [],
@@ -117,7 +116,7 @@ if __name__ == '__main__':
                 classifier_params[p_name] = t[k]
 
         vect = t['vectorizer'](**vect_params)
-        classifier = t['classifier'](early_stopping_rounds=10, eval_metric='logloss', scale_pos_weight=pos_weight, **classifier_params)
+        classifier = t['classifier'](early_stopping_rounds=10, eval_metric='logloss', **classifier_params)
 
         x_train_copy = vect.fit_transform(x_train)
         x_val_copy = vect.transform(x_val)

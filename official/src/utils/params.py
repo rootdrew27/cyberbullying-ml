@@ -3,15 +3,13 @@ from pathlib import Path
 from glob import glob
 import json
 
-PATH_TO_PARAMS = Path('C:\\Users\\rooty\\UWEC\\Research\\CyberBullyingML\\cyberbullyingml\\cyberbullying-ml\\official\\hyp_search\\results')
-
-def get_topn_param_sets(algo:str,dataset:str, n:int=10, sort_condition:str='f1_macro_mean'):
+def get_topn_param_sets(path_to_params:Path, algo:str, dataset:str, n:int=10, sort_condition:str='f1_macro_mean'):
     """
     Get the parameter sets from the hyperparameter search.
     """
     try:
         param_sets = pd.DataFrame()
-        param_files = glob(str(PATH_TO_PARAMS / f'*{algo}*{dataset}*'))
+        param_files = glob(str(path_to_params / f'*{algo}*{dataset}*'))
         for file in param_files:
             with open(file, 'r') as f:
                 param_sets = pd.concat([param_sets, pd.DataFrame(json.load(f))])
@@ -20,4 +18,5 @@ def get_topn_param_sets(algo:str,dataset:str, n:int=10, sort_condition:str='f1_m
 
     except Exception as e:
         print(f"Error getting param sets: {e}")
+        print(f"Path to params: {path_to_params}")
         return None
