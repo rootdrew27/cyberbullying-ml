@@ -121,8 +121,9 @@ if __name__ == '__main__':
 
             result = {}
             result['report'] = (report:=classification_report(y_test, preds, output_dict=True))
-            classifier_params['n_estimators'] = classifier.get_param('n_estimators')
+            classifier_params['n_estimators'] = classifier.tree_count_
             result['classifier_params'] = classifier_params
+            result['vectorizer'] = vectorizer.__str__()
             result['vectorizer_params'] = vect_params
             result['val_f1_macro_mean'] = val_f1_macro_mean = val_scores['f1_macro_mean']
             result['val_f1_weighted_mean'] = val_f1_weighted_mean = val_scores['f1_weighted_mean']

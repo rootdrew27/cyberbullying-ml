@@ -5,9 +5,10 @@
 - Create experiments -> Perform experiments
 - Analyze results
 
-
-
 ### Low Level Tasks
+
+- Add vectorizer and n_estimators (correct amount) to results
+- fix issues with results
 
 - Get hyps for D1
 - Run Exp1 Part 1 & 2

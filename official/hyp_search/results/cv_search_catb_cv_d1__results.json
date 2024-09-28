@@ -1,1 +1,1296 @@
-{"fit_time_mean": [45.21081785360972, 137.81716779867807, 45.24776899814606, 137.55958823362985, 10.123030026753744, 25.395238081614178, 10.312878370285034, 26.25705122947693, 44.07550243536631, 137.5510051647822, 45.680415431658425, 138.57324822743735, 10.356329838434855, 25.322567343711853, 10.176804145177206, 26.54923101266225, 73.60057099660237, 162.1209111213684, 74.30759259064992, 162.470977862676, 18.784289360046387, 31.457693378130596, 17.420393149058025, 29.091358343760174, 73.95253276824951, 162.43688535690308, 73.84478096167247], "fit_time_std_dev": [0.3866393446086819, 0.8525096747764409, 0.18128670615289627, 0.4879670285863072, 1.6157474030226309, 1.5446248877418063, 1.0474393024330615, 2.5928695321022452, 0.5240034584445902, 0.8252679204975784, 0.5555016305320647, 0.6571983793921382, 1.6557175014535166, 1.3824598256749119, 1.1062463222339556, 2.644240309839014, 0.5519463347904205, 0.7478577059901793, 0.3894700573149935, 0.6206031804267508, 3.061016390696853, 3.2013184998733055, 1.1207753952787587, 4.542688167227178, 0.5096346019362326, 0.5117840884767018, 1.3668462374655845], "f1_macro_mean": [0.6702637352867765, 0.6994754374602038, 0.6697746989971188, 0.6992901688646173, 0.724270826577064, 0.7244585738085588, 0.7226565553188821, 0.7263351087403892, 0.6702637352867765, 0.6994754374602038, 0.6697746989971188, 0.6992901688646173, 0.724270826577064, 0.7244585738085588, 0.7226565553188821, 0.7263351087403892, 0.660093180004514, 0.6887668059161296, 0.6591132229132075, 0.688202230678994, 0.725285696585011, 0.7264063528154514, 0.7240507252505184, 0.7259579530956044, 0.660093180004514, 0.6887668059161296, 0.6591132229132075], "f1_macro_std_dev": [0.005717086802543003, 0.005821619704660002, 0.005554746803801157, 0.005361868814546306, 0.004741030115310937, 0.0035669740792073266, 0.0039000842280957544, 0.004723814587874229, 0.005717086802543003, 0.005821619704660002, 0.005554746803801157, 0.005361868814546306, 0.004741030115310937, 0.0035669740792073266, 0.0039000842280957544, 0.004723814587874229, 0.00630742178976836, 0.004082762098336441, 0.005502371586762245, 0.003928922454636152, 0.004617804751944827, 0.005233240646567952, 0.005005051060232425, 0.004683101175607489, 0.00630742178976836, 0.004082762098336441, 0.005502371586762245], "f1_weighted_mean": [0.7800325373103562, 0.8058436711483163, 0.7796494326237337, 0.80573432535019, 0.8277219289064045, 0.828444686718019, 0.8265030214396822, 0.829885716391466, 0.7800325373103562, 0.8058436711483163, 0.7796494326237337, 0.80573432535019, 0.8277219289064045, 0.828444686718019, 0.8265030214396822, 0.829885716391466, 0.774626611375394, 0.7971423102156024, 0.7738030593960262, 0.7966061187484517, 0.8277992433812705, 0.8292718185260052, 0.8266498855972501, 0.8287977093170028, 0.774626611375394, 0.7971423102156024, 0.7738030593960262], "f1_weighted_std_dev": [0.005101890602627162, 0.0050170455124185845, 0.004887951191032505, 0.004547746129934875, 0.0038452563869074926, 0.003034574821267519, 0.003508197952004536, 0.003966816907594258, 0.005101890602627162, 0.0050170455124185845, 0.004887951191032505, 0.004547746129934875, 0.0038452563869074926, 0.003034574821267519, 0.003508197952004536, 0.003966816907594258, 0.00536478311992126, 0.0037642255180638296, 0.004759060777417583, 0.0036875699102877934, 0.003893795867469813, 0.004301443014981039, 0.004196192707638551, 0.00394549223835903, 0.00536478311992126, 0.0037642255180638296, 0.004759060777417583], "params": [{"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f202c48c550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 0.75, "classifier__depth": 10, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 1000, "classifier__rsm": 1, "classifier__depth": 6, "classifier": "<class 'catboost.core.CatBoostClassifier'>"}]}
+{
+    "fit_time_mean": [
+        33.03990920384725,
+        76.08390935262044,
+        34.25608944892883,
+        76.33992811044057,
+        8.599487741788229,
+        14.32163393497467,
+        8.536416927973429,
+        14.825903018315634,
+        34.06251001358032,
+        76.01266980171204,
+        34.362186431884766,
+        77.10689147313435,
+        8.418047626813253,
+        14.239410003026327,
+        8.535806973775228,
+        14.800995628039042,
+        50.79780705769857,
+        92.32040846347809,
+        50.694013357162476,
+        90.98667625586192,
+        14.14007318019867,
+        17.93074079354604,
+        12.167560617129007,
+        17.420497337977093,
+        51.22993163267771,
+        90.78522578875224,
+        50.268625577290855,
+        91.57244702180226,
+        14.098800500233969,
+        18.098105430603027,
+        12.137058138847351,
+        17.162883281707764,
+        604.0624193350474,
+        1327.7370247840881,
+        588.0029063224792,
+        1296.3743807077408,
+        138.79841820398966,
+        268.197389682134,
+        155.61401438713074,
+        245.50221820672354,
+        610.8936587174734,
+        1361.5952279170353,
+        591.6409598986307,
+        1324.5531488259633,
+        139.50393068790436,
+        269.14364953835803,
+        156.70108250776926,
+        249.28764720757803,
+        639.3049116134644,
+        1416.033765355746,
+        630.9842201073965,
+        1388.7753636042278,
+        136.67442750930786,
+        281.2097273667653,
+        153.3197229305903,
+        279.38158917427063,
+        646.9801108837128,
+        1403.9286593596141,
+        625.7645287513733,
+        1399.1555185715358,
+        136.94005266825357,
+        280.06286573410034,
+        154.10232210159302,
+        281.13409479459125
+    ],
+    "fit_time_std_dev": [
+        0.2395741533971908,
+        2.0093649251243293,
+        0.5257542839082096,
+        0.6145575833107404,
+        1.5429952397561535,
+        1.1456184661898805,
+        1.0578071974179302,
+        1.7836300020965652,
+        0.12656989397409435,
+        1.8322298428716612,
+        0.18901040278480344,
+        1.6254784117838257,
+        1.5155060537023937,
+        1.0280432195165485,
+        1.0936292061248594,
+        1.5883401986585004,
+        1.2349830353056728,
+        1.3044293064683161,
+        0.962505151813544,
+        0.31680192010531233,
+        2.7300444641888975,
+        2.145472818747634,
+        0.6894342071744307,
+        3.5758655965030255,
+        1.257059727185253,
+        0.1646493412233905,
+        0.5110843072951367,
+        0.44951245730161393,
+        2.9087024776395656,
+        2.199907254039766,
+        0.8241654699781477,
+        3.2981488682644935,
+        2.505902509966871,
+        27.289001043330614,
+        2.8062898891337738,
+        12.42883803718672,
+        18.450228943501727,
+        23.622710503978144,
+        26.303392343318382,
+        36.92028077289464,
+        4.352185944899208,
+        24.129229797077,
+        4.855717731593469,
+        12.72098441998039,
+        18.728458459135904,
+        22.441335509014834,
+        27.568632199561144,
+        37.670496884444894,
+        6.164258156958229,
+        28.10590567072469,
+        7.497080359557493,
+        10.009176169861792,
+        16.500625431399467,
+        41.98358781148041,
+        17.14082995202373,
+        32.8654064651395,
+        5.590276666549598,
+        12.366770434646144,
+        4.402827368743815,
+        13.980582164013025,
+        17.07498760553518,
+        39.6813799883807,
+        16.194831298529483,
+        34.57761185708926
+    ],
+    "f1_macro_mean": [
+        0.6702637352867765,
+        0.6994754374602038,
+        0.6697746989971188,
+        0.6992901688646173,
+        0.724270826577064,
+        0.7244585738085588,
+        0.7226565553188821,
+        0.7263351087403892,
+        0.6702637352867765,
+        0.6994754374602038,
+        0.6697746989971188,
+        0.6992901688646173,
+        0.724270826577064,
+        0.7244585738085588,
+        0.7226565553188821,
+        0.7263351087403892,
+        0.660093180004514,
+        0.6887668059161296,
+        0.6591132229132075,
+        0.688202230678994,
+        0.725285696585011,
+        0.7264063528154514,
+        0.7240507252505184,
+        0.7259579530956044,
+        0.660093180004514,
+        0.6887668059161296,
+        0.6591132229132075,
+        0.688202230678994,
+        0.725285696585011,
+        0.7264063528154514,
+        0.7240507252505184,
+        0.7259579530956044,
+        0.6709587749690784,
+        0.7000909562396291,
+        0.6702363459213437,
+        0.7002464288552784,
+        0.7225554167473075,
+        0.7258669910523103,
+        0.7236605324754745,
+        0.7256661092831019,
+        0.6709587749690784,
+        0.7000909562396291,
+        0.6702363459213437,
+        0.7002464288552784,
+        0.7225554167473075,
+        0.7258669910523103,
+        0.7236605324754745,
+        0.7256661092831019,
+        0.6622351872177963,
+        0.6879107269050843,
+        0.6615125646733043,
+        0.6873114716731364,
+        0.7230310527101067,
+        0.7260696104071888,
+        0.7244653519495353,
+        0.7270263081559752,
+        0.6622351872177963,
+        0.6879107269050843,
+        0.6615125646733043,
+        0.6873114716731364,
+        0.7230310527101067,
+        0.7260696104071888,
+        0.7244653519495353,
+        0.7270263081559752
+    ],
+    "f1_macro_std_dev": [
+        0.005717086802543003,
+        0.005821619704660002,
+        0.005554746803801157,
+        0.005361868814546306,
+        0.004741030115310937,
+        0.0035669740792073266,
+        0.0039000842280957544,
+        0.004723814587874229,
+        0.005717086802543003,
+        0.005821619704660002,
+        0.005554746803801157,
+        0.005361868814546306,
+        0.004741030115310937,
+        0.0035669740792073266,
+        0.0039000842280957544,
+        0.004723814587874229,
+        0.00630742178976836,
+        0.004082762098336441,
+        0.005502371586762245,
+        0.003928922454636152,
+        0.004617804751944827,
+        0.005233240646567952,
+        0.005005051060232425,
+        0.004683101175607489,
+        0.00630742178976836,
+        0.004082762098336441,
+        0.005502371586762245,
+        0.003928922454636152,
+        0.004617804751944827,
+        0.005233240646567952,
+        0.005005051060232425,
+        0.004683101175607489,
+        0.005804907060024395,
+        0.005291679328546302,
+        0.005466493733497499,
+        0.0056258821231633055,
+        0.004275971896693246,
+        0.004681382863333552,
+        0.005319040597464823,
+        0.0051695601251360804,
+        0.005804907060024395,
+        0.005291679328546302,
+        0.005466493733497499,
+        0.0056258821231633055,
+        0.004275971896693246,
+        0.004681382863333552,
+        0.005319040597464823,
+        0.0051695601251360804,
+        0.005225693135885694,
+        0.004782843072778105,
+        0.005780158888473812,
+        0.004709760964015914,
+        0.0058629396105402245,
+        0.005227358098602471,
+        0.00600381104740208,
+        0.006076945028482739,
+        0.005225693135885694,
+        0.004782843072778105,
+        0.005780158888473812,
+        0.004709760964015914,
+        0.0058629396105402245,
+        0.005227358098602471,
+        0.00600381104740208,
+        0.006076945028482739
+    ],
+    "f1_weighted_mean": [
+        0.7800325373103562,
+        0.8058436711483163,
+        0.7796494326237337,
+        0.80573432535019,
+        0.8277219289064045,
+        0.828444686718019,
+        0.8265030214396822,
+        0.829885716391466,
+        0.7800325373103562,
+        0.8058436711483163,
+        0.7796494326237337,
+        0.80573432535019,
+        0.8277219289064045,
+        0.828444686718019,
+        0.8265030214396822,
+        0.829885716391466,
+        0.774626611375394,
+        0.7971423102156024,
+        0.7738030593960262,
+        0.7966061187484517,
+        0.8277992433812705,
+        0.8292718185260052,
+        0.8266498855972501,
+        0.8287977093170028,
+        0.774626611375394,
+        0.7971423102156024,
+        0.7738030593960262,
+        0.7966061187484517,
+        0.8277992433812705,
+        0.8292718185260052,
+        0.8266498855972501,
+        0.8287977093170028,
+        0.7806434275201077,
+        0.8061865872490203,
+        0.780165304730643,
+        0.806366199232864,
+        0.8258109213082431,
+        0.8292093957467773,
+        0.8268370759971534,
+        0.8288074187324473,
+        0.7806434275201077,
+        0.8061865872490203,
+        0.780165304730643,
+        0.806366199232864,
+        0.8258109213082431,
+        0.8292093957467773,
+        0.8268370759971534,
+        0.8288074187324473,
+        0.7764230532795525,
+        0.7962249976506589,
+        0.7759238860583865,
+        0.7957230255107511,
+        0.8251845920102974,
+        0.8285080607542429,
+        0.8266201612419133,
+        0.8293618247450545,
+        0.7764230532795525,
+        0.7962249976506589,
+        0.7759238860583865,
+        0.7957230255107511,
+        0.8251845920102974,
+        0.8285080607542429,
+        0.8266201612419133,
+        0.8293618247450545
+    ],
+    "f1_weighted_std_dev": [
+        0.005101890602627162,
+        0.0050170455124185845,
+        0.004887951191032505,
+        0.004547746129934875,
+        0.0038452563869074926,
+        0.003034574821267519,
+        0.003508197952004536,
+        0.003966816907594258,
+        0.005101890602627162,
+        0.0050170455124185845,
+        0.004887951191032505,
+        0.004547746129934875,
+        0.0038452563869074926,
+        0.003034574821267519,
+        0.003508197952004536,
+        0.003966816907594258,
+        0.00536478311992126,
+        0.0037642255180638296,
+        0.004759060777417583,
+        0.0036875699102877934,
+        0.003893795867469813,
+        0.004301443014981039,
+        0.004196192707638551,
+        0.00394549223835903,
+        0.00536478311992126,
+        0.0037642255180638296,
+        0.004759060777417583,
+        0.0036875699102877934,
+        0.003893795867469813,
+        0.004301443014981039,
+        0.004196192707638551,
+        0.00394549223835903,
+        0.00518832029555553,
+        0.004517700530611548,
+        0.004837993721067818,
+        0.004763650596760914,
+        0.002938369703052145,
+        0.0039543215929732254,
+        0.004097954400105253,
+        0.004184268707477234,
+        0.00518832029555553,
+        0.004517700530611548,
+        0.004837993721067818,
+        0.004763650596760914,
+        0.002938369703052145,
+        0.0039543215929732254,
+        0.004097954400105253,
+        0.004184268707477234,
+        0.004543061568219087,
+        0.004405266423930319,
+        0.004969337419103571,
+        0.00424764533839531,
+        0.004679608296014331,
+        0.0043654269867484715,
+        0.0049745570580048346,
+        0.004768990178818799,
+        0.004543061568219087,
+        0.004405266423930319,
+        0.004969337419103571,
+        0.00424764533839531,
+        0.004679608296014331,
+        0.0043654269867484715,
+        0.0049745570580048346,
+        0.004768990178818799
+    ],
+    "params": [
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7f9b6304a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 0.75,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 6,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 1000,
+            "classifier__rsm": 1,
+            "classifier__depth": 10,
+            "classifier": "<class 'catboost.core.CatBoostClassifier'>"
+        }
+    ]
+}
