@@ -20,7 +20,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from utils import params, results
+from utils import params, results, data
 
 TRAIN_DATA_NAME = 'hatespeech_tweets_basic_clean.csv'
 TEST_DATA_NAME = '48000_cyberbullying_tweets_basic_clean.csv'
@@ -127,6 +127,7 @@ if __name__ == '__main__':
             result['classifier_params'] = classifier_params
             result['vectorizer'] = vectorizer.__str__()
             result['vectorizer_params'] = vect_params
+            result['num_oov_feats'] = len(data.get_OOV_feats(x_train, x_test, print_oov_feats=False, **vect_params))
             result['val_f1_macro_mean'] = val_f1_macro_mean = val_scores['f1_macro_mean']
             result['val_f1_weighted_mean'] = val_f1_weighted_mean = val_scores['f1_weighted_mean']
             result['drop_in_f1_macro_mean'] = val_f1_macro_mean - report['macro avg']['f1-score']

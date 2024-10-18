@@ -34,9 +34,9 @@ def balance_train_and_test(notcb_train:pd.DataFrame, cb_train:pd.DataFrame, notc
     
     return train_df, test_df, x_hat, ratio # the new ratio of noncb to cb (in both sets)
     
-def get_OOV_feats(train_data:pd.Series, test_data:pd.Series, print_oov_feats:bool=False):
-    v1 = CountVectorizer()
-    v2 = CountVectorizer()
+def get_OOV_feats(train_data:pd.Series, test_data:pd.Series, print_oov_feats:bool=False, **vect_params):
+    v1 = CountVectorizer(**vect_params)
+    v2 = CountVectorizer(**vect_params)
 
     v1.fit(train_data)
     v2.fit(test_data)
@@ -44,7 +44,7 @@ def get_OOV_feats(train_data:pd.Series, test_data:pd.Series, print_oov_feats:boo
     feats_train = v1.get_feature_names_out()
     feats_test = v2.get_feature_names_out()
 
-    oov_feats = np.setdiff1d(feats_test, feats_train)
+    oov_feats = np.setdiff1d(feats_test, feats_train) # gets the unique values of feats_test that are not in feats_train
     if print_oov_feats: print(f"OOV features: {oov_feats}")
 
     return oov_feats

@@ -1,1 +1,1296 @@
-{"fit_time_mean": [880.6169487635294, 916.7121781508127, 891.9251384337744, 942.0060685873032, 875.4869304498037, 844.3505789041519, 885.3242516120275, 799.1417971452078, 879.5637355248133, 915.7628404299418, 888.2524643739065, 942.1323228677114, 877.9231405258179, 843.3953099250793, 881.3688500324885, 797.4006138245264, 1130.9370631774266, 1170.9607872962952, 1135.8499307632446, 1240.154419740041, 1125.663394888242, 1028.130420088768, 1129.1379481156666, 1025.2002348502476, 1128.3054753541946, 1170.8483306566875, 1157.1420876582463, 1209.1835508743923, 1120.9433025121689, 1027.6787819465, 1126.928723136584, 1026.1280821959178, 16619.710526943207, 17570.776614745457, 16774.078385988872, 18200.988813877106, 15822.673449675241, 15516.318009893099, 16686.8141194582, 15067.709278464317, 16569.2490606308, 17378.497269352276, 16765.26594034831, 18240.265691240627, 15856.843882282576, 15307.15411623319, 16554.913479646046, 15035.262271285057, 17451.812306722004, 18487.962714791298, 17796.461002588272, 19444.394147316616, 17544.589853405952, 14940.570491751036, 17626.27891933918, 15410.462725838026, 17681.78698329131, 18588.285282095272, 17800.99535493056, 19462.15692981084, 17448.922149300575, 14853.50374674797, 17534.804154316585, 15411.180566072464], "fit_time_std_dev": [1.8460666211548458, 3.6366749590786958, 12.401790302637833, 2.2549709051446505, 1.3158681938233305, 62.226813065926244, 11.270292469624836, 96.92341369495774, 1.8708158812098192, 1.7592080534325965, 1.3732601845543324, 2.2556507383130557, 2.806908379962578, 61.357754149816174, 1.2855821935899676, 94.28274798151833, 2.7639580573211875, 4.452625487028698, 2.5831816417436095, 44.36254362688424, 2.436137260266767, 108.70127370358031, 1.791808824982974, 116.81133563938742, 3.42328099150453, 5.709362010172232, 35.94073533552085, 5.632264853828164, 5.8797313922802, 109.03280228515608, 5.6478223829595136, 118.69594131549225, 65.45175128889868, 121.88510814533444, 92.18575406683729, 103.97863518989914, 1510.373241461501, 1176.7376469579679, 80.47853327993462, 1019.5996367629672, 82.48532709302444, 65.82946392850522, 201.87921681532143, 157.14363136066945, 1478.9828487195596, 955.7447504901276, 102.15956381783919, 1042.3350199785161, 85.5425012413562, 139.66919474676723, 104.03019962871484, 156.61032306109362, 229.93052399143775, 2029.560661531568, 181.64840854654688, 1684.129195806075, 144.9039102379391, 185.04971089865634, 71.8180863694033, 121.22419430266464, 85.28290769605867, 2085.0116654450626, 68.86657139170161, 1683.886173083697], "f1_macro_mean": [0.6456153749546939, 0.6965945097460677, 0.6016127204669773, 0.6750518314507525, 0.7303508458358975, 0.7359319754184704, 0.7290946456173218, 0.7354817082698079, 0.6456153749546939, 0.6965945097460677, 0.6016127204669773, 0.6750518314507525, 0.7303508458358975, 0.7359319754184704, 0.7290946456173218, 0.7354817082698079, 0.6312727817070937, 0.6827647833997604, 0.6028334090373804, 0.6604326729594004, 0.7316009356980392, 0.7361874040415385, 0.731371289533905, 0.7345744762565604, 0.6312727817070937, 0.6827647833997604, 0.6028334090373804, 0.6604326729594004, 0.7316009356980392, 0.7361874040415385, 0.731371289533905, 0.7345744762565604, 0.6380518649788083, 0.6873934490085695, 0.5997251328683003, 0.6708676250375355, 0.7295923852052759, 0.7357390164152781, 0.7302557331891452, 0.7365185008280563, 0.6380518649788083, 0.6873934490085695, 0.5997251328683003, 0.6708676250375355, 0.7295923852052759, 0.7357390164152781, 0.7302557331891452, 0.7365185008280563, 0.6252403001282845, 0.6769652938947422, 0.6024104005772688, 0.660050990306429, 0.7317158499726729, 0.7357175983781042, 0.7327486542204142, 0.7349692181033974, 0.6252403001282845, 0.6769652938947422, 0.6024104005772688, 0.660050990306429, 0.7317158499726729, 0.7357175983781042, 0.7327486542204142, 0.7349692181033974], "f1_macro_std_dev": [0.0034297470472830793, 0.005545388636741019, 0.006404130011954764, 0.004161078156023639, 0.004652094945274206, 0.005191694346741957, 0.004832032118915607, 0.004180425463359823, 0.0034297470472830793, 0.005545388636741019, 0.006404130011954764, 0.004161078156023639, 0.004652094945274206, 0.005191694346741957, 0.004832032118915607, 0.004180425463359823, 0.005106365705342104, 0.003200185690033149, 0.0070723436001250625, 0.0032634051439116366, 0.005867921144954519, 0.005403619862658294, 0.005848906149837517, 0.00483758475527849, 0.005106365705342104, 0.003200185690033149, 0.0070723436001250625, 0.0032634051439116366, 0.005867921144954519, 0.005403619862658294, 0.005848906149837517, 0.00483758475527849, 0.003220596968778385, 0.0041743824868231616, 0.003647138006477953, 0.005888510484821934, 0.005129894826324084, 0.0046292795738299575, 0.00535037332511667, 0.002981970494880591, 0.003220596968778385, 0.0041743824868231616, 0.003647138006477953, 0.005888510484821934, 0.005129894826324084, 0.0046292795738299575, 0.00535037332511667, 0.002981970494880591, 0.004276939593568392, 0.0034451565965853146, 0.0072063443600894105, 0.0032448727952658885, 0.005445925512308051, 0.0037927826873027253, 0.005333775048240227, 0.003675841537372352, 0.004276939593568392, 0.0034451565965853146, 0.0072063443600894105, 0.0032448727952658885, 0.005445925512308051, 0.0037927826873027253, 0.005333775048240227, 0.003675841537372352], "f1_weighted_mean": [0.7542504060553318, 0.8020527628680275, 0.7079052773208083, 0.7821002344969115, 0.8338586101596887, 0.8421838380858088, 0.833364138462953, 0.8424471218150278, 0.7542504060553318, 0.8020527628680275, 0.7079052773208083, 0.7821002344969115, 0.8338586101596887, 0.8421838380858088, 0.833364138462953, 0.8424471218150278, 0.7421243653943203, 0.789638872943763, 0.7141929435139924, 0.7683839933714839, 0.8339509685329465, 0.8405955327455631, 0.8340656743678038, 0.8407383439448365, 0.7421243653943203, 0.789638872943763, 0.7141929435139924, 0.7683839933714839, 0.8339509685329465, 0.8405955327455631, 0.8340656743678038, 0.8407383439448365, 0.7463850745682201, 0.793313644652048, 0.7059567777463881, 0.7779226670135179, 0.8328786076787331, 0.8413250804070583, 0.8339610031148702, 0.8426814907346566, 0.7463850745682201, 0.793313644652048, 0.7059567777463881, 0.7779226670135179, 0.8328786076787331, 0.8413250804070583, 0.8339610031148702, 0.8426814907346566, 0.7358363170132852, 0.7843318907720116, 0.7141591270119352, 0.7681238686663612, 0.8339686460319728, 0.8402564231826152, 0.8347788965325895, 0.8406945640844131, 0.7358363170132852, 0.7843318907720116, 0.7141591270119352, 0.7681238686663612, 0.8339686460319728, 0.8402564231826152, 0.8347788965325895, 0.8406945640844131], "f1_weighted_std_dev": [0.0036360364489318566, 0.004991839226437768, 0.007432103524397442, 0.0038414589897398394, 0.0036522324073999307, 0.0034380500395890614, 0.0038877679539135964, 0.0035861734346781665, 0.0036360364489318566, 0.004991839226437768, 0.007432103524397442, 0.0038414589897398394, 0.0036522324073999307, 0.0034380500395890614, 0.0038877679539135964, 0.0035861734346781665, 0.0046109106809526885, 0.0027575268795027677, 0.006991657341867072, 0.0029485384004377265, 0.004650203884577904, 0.00413590236013325, 0.004649375855991365, 0.0029733098674761347, 0.0046109106809526885, 0.0027575268795027677, 0.006991657341867072, 0.0029485384004377265, 0.004650203884577904, 0.00413590236013325, 0.004649375855991365, 0.0029733098674761347, 0.0036125167438855414, 0.0038241151667356326, 0.004595048210123051, 0.005507098760275095, 0.0036700790936651326, 0.0031484088723544184, 0.003934784362681474, 0.002395431257835611, 0.0036125167438855414, 0.0038241151667356326, 0.004595048210123051, 0.005507098760275095, 0.0036700790936651326, 0.0031484088723544184, 0.003934784362681474, 0.002395431257835611, 0.004052593737858887, 0.003002315693777071, 0.007145885251980492, 0.0028959586295114518, 0.00428308860195013, 0.002912879793693853, 0.004085180051147094, 0.002245709272280238, 0.004052593737858887, 0.003002315693777071, 0.007145885251980492, 0.0028959586295114518, 0.00428308860195013, 0.002912879793693853, 0.004085180051147094, 0.002245709272280238], "params": [{"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 1], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>", "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.5, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.001, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.5, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 6, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}, {"vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>", "vectorizer__ngram_range": [1, 3], "vectorizer__preprocessor": null, "vectorizer__max_df": 0.9, "classifier__learning_rate": 0.1, "classifier__n_estimators": 500, "classifier__colsample_bytree": 0.9, "classifier__max_depth": 12, "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"}]}
+{
+    "fit_time_mean": [
+        880.6169487635294,
+        916.7121781508127,
+        891.9251384337744,
+        942.0060685873032,
+        875.4869304498037,
+        844.3505789041519,
+        885.3242516120275,
+        799.1417971452078,
+        879.5637355248133,
+        915.7628404299418,
+        888.2524643739065,
+        942.1323228677114,
+        877.9231405258179,
+        843.3953099250793,
+        881.3688500324885,
+        797.4006138245264,
+        1130.9370631774266,
+        1170.9607872962952,
+        1135.8499307632446,
+        1240.154419740041,
+        1125.663394888242,
+        1028.130420088768,
+        1129.1379481156666,
+        1025.2002348502476,
+        1128.3054753541946,
+        1170.8483306566875,
+        1157.1420876582463,
+        1209.1835508743923,
+        1120.9433025121689,
+        1027.6787819465,
+        1126.928723136584,
+        1026.1280821959178,
+        16619.710526943207,
+        17570.776614745457,
+        16774.078385988872,
+        18200.988813877106,
+        15822.673449675241,
+        15516.318009893099,
+        16686.8141194582,
+        15067.709278464317,
+        16569.2490606308,
+        17378.497269352276,
+        16765.26594034831,
+        18240.265691240627,
+        15856.843882282576,
+        15307.15411623319,
+        16554.913479646046,
+        15035.262271285057,
+        17451.812306722004,
+        18487.962714791298,
+        17796.461002588272,
+        19444.394147316616,
+        17544.589853405952,
+        14940.570491751036,
+        17626.27891933918,
+        15410.462725838026,
+        17681.78698329131,
+        18588.285282095272,
+        17800.99535493056,
+        19462.15692981084,
+        17448.922149300575,
+        14853.50374674797,
+        17534.804154316585,
+        15411.180566072464
+    ],
+    "fit_time_std_dev": [
+        1.8460666211548458,
+        3.6366749590786958,
+        12.401790302637833,
+        2.2549709051446505,
+        1.3158681938233305,
+        62.226813065926244,
+        11.270292469624836,
+        96.92341369495774,
+        1.8708158812098192,
+        1.7592080534325965,
+        1.3732601845543324,
+        2.2556507383130557,
+        2.806908379962578,
+        61.357754149816174,
+        1.2855821935899676,
+        94.28274798151833,
+        2.7639580573211875,
+        4.452625487028698,
+        2.5831816417436095,
+        44.36254362688424,
+        2.436137260266767,
+        108.70127370358031,
+        1.791808824982974,
+        116.81133563938742,
+        3.42328099150453,
+        5.709362010172232,
+        35.94073533552085,
+        5.632264853828164,
+        5.8797313922802,
+        109.03280228515608,
+        5.6478223829595136,
+        118.69594131549225,
+        65.45175128889868,
+        121.88510814533444,
+        92.18575406683729,
+        103.97863518989914,
+        1510.373241461501,
+        1176.7376469579679,
+        80.47853327993462,
+        1019.5996367629672,
+        82.48532709302444,
+        65.82946392850522,
+        201.87921681532143,
+        157.14363136066945,
+        1478.9828487195596,
+        955.7447504901276,
+        102.15956381783919,
+        1042.3350199785161,
+        85.5425012413562,
+        139.66919474676723,
+        104.03019962871484,
+        156.61032306109362,
+        229.93052399143775,
+        2029.560661531568,
+        181.64840854654688,
+        1684.129195806075,
+        144.9039102379391,
+        185.04971089865634,
+        71.8180863694033,
+        121.22419430266464,
+        85.28290769605867,
+        2085.0116654450626,
+        68.86657139170161,
+        1683.886173083697
+    ],
+    "f1_macro_mean": [
+        0.6456153749546939,
+        0.6965945097460677,
+        0.6016127204669773,
+        0.6750518314507525,
+        0.7303508458358975,
+        0.7359319754184704,
+        0.7290946456173218,
+        0.7354817082698079,
+        0.6456153749546939,
+        0.6965945097460677,
+        0.6016127204669773,
+        0.6750518314507525,
+        0.7303508458358975,
+        0.7359319754184704,
+        0.7290946456173218,
+        0.7354817082698079,
+        0.6312727817070937,
+        0.6827647833997604,
+        0.6028334090373804,
+        0.6604326729594004,
+        0.7316009356980392,
+        0.7361874040415385,
+        0.731371289533905,
+        0.7345744762565604,
+        0.6312727817070937,
+        0.6827647833997604,
+        0.6028334090373804,
+        0.6604326729594004,
+        0.7316009356980392,
+        0.7361874040415385,
+        0.731371289533905,
+        0.7345744762565604,
+        0.6380518649788083,
+        0.6873934490085695,
+        0.5997251328683003,
+        0.6708676250375355,
+        0.7295923852052759,
+        0.7357390164152781,
+        0.7302557331891452,
+        0.7365185008280563,
+        0.6380518649788083,
+        0.6873934490085695,
+        0.5997251328683003,
+        0.6708676250375355,
+        0.7295923852052759,
+        0.7357390164152781,
+        0.7302557331891452,
+        0.7365185008280563,
+        0.6252403001282845,
+        0.6769652938947422,
+        0.6024104005772688,
+        0.660050990306429,
+        0.7317158499726729,
+        0.7357175983781042,
+        0.7327486542204142,
+        0.7349692181033974,
+        0.6252403001282845,
+        0.6769652938947422,
+        0.6024104005772688,
+        0.660050990306429,
+        0.7317158499726729,
+        0.7357175983781042,
+        0.7327486542204142,
+        0.7349692181033974
+    ],
+    "f1_macro_std_dev": [
+        0.0034297470472830793,
+        0.005545388636741019,
+        0.006404130011954764,
+        0.004161078156023639,
+        0.004652094945274206,
+        0.005191694346741957,
+        0.004832032118915607,
+        0.004180425463359823,
+        0.0034297470472830793,
+        0.005545388636741019,
+        0.006404130011954764,
+        0.004161078156023639,
+        0.004652094945274206,
+        0.005191694346741957,
+        0.004832032118915607,
+        0.004180425463359823,
+        0.005106365705342104,
+        0.003200185690033149,
+        0.0070723436001250625,
+        0.0032634051439116366,
+        0.005867921144954519,
+        0.005403619862658294,
+        0.005848906149837517,
+        0.00483758475527849,
+        0.005106365705342104,
+        0.003200185690033149,
+        0.0070723436001250625,
+        0.0032634051439116366,
+        0.005867921144954519,
+        0.005403619862658294,
+        0.005848906149837517,
+        0.00483758475527849,
+        0.003220596968778385,
+        0.0041743824868231616,
+        0.003647138006477953,
+        0.005888510484821934,
+        0.005129894826324084,
+        0.0046292795738299575,
+        0.00535037332511667,
+        0.002981970494880591,
+        0.003220596968778385,
+        0.0041743824868231616,
+        0.003647138006477953,
+        0.005888510484821934,
+        0.005129894826324084,
+        0.0046292795738299575,
+        0.00535037332511667,
+        0.002981970494880591,
+        0.004276939593568392,
+        0.0034451565965853146,
+        0.0072063443600894105,
+        0.0032448727952658885,
+        0.005445925512308051,
+        0.0037927826873027253,
+        0.005333775048240227,
+        0.003675841537372352,
+        0.004276939593568392,
+        0.0034451565965853146,
+        0.0072063443600894105,
+        0.0032448727952658885,
+        0.005445925512308051,
+        0.0037927826873027253,
+        0.005333775048240227,
+        0.003675841537372352
+    ],
+    "f1_weighted_mean": [
+        0.7542504060553318,
+        0.8020527628680275,
+        0.7079052773208083,
+        0.7821002344969115,
+        0.8338586101596887,
+        0.8421838380858088,
+        0.833364138462953,
+        0.8424471218150278,
+        0.7542504060553318,
+        0.8020527628680275,
+        0.7079052773208083,
+        0.7821002344969115,
+        0.8338586101596887,
+        0.8421838380858088,
+        0.833364138462953,
+        0.8424471218150278,
+        0.7421243653943203,
+        0.789638872943763,
+        0.7141929435139924,
+        0.7683839933714839,
+        0.8339509685329465,
+        0.8405955327455631,
+        0.8340656743678038,
+        0.8407383439448365,
+        0.7421243653943203,
+        0.789638872943763,
+        0.7141929435139924,
+        0.7683839933714839,
+        0.8339509685329465,
+        0.8405955327455631,
+        0.8340656743678038,
+        0.8407383439448365,
+        0.7463850745682201,
+        0.793313644652048,
+        0.7059567777463881,
+        0.7779226670135179,
+        0.8328786076787331,
+        0.8413250804070583,
+        0.8339610031148702,
+        0.8426814907346566,
+        0.7463850745682201,
+        0.793313644652048,
+        0.7059567777463881,
+        0.7779226670135179,
+        0.8328786076787331,
+        0.8413250804070583,
+        0.8339610031148702,
+        0.8426814907346566,
+        0.7358363170132852,
+        0.7843318907720116,
+        0.7141591270119352,
+        0.7681238686663612,
+        0.8339686460319728,
+        0.8402564231826152,
+        0.8347788965325895,
+        0.8406945640844131,
+        0.7358363170132852,
+        0.7843318907720116,
+        0.7141591270119352,
+        0.7681238686663612,
+        0.8339686460319728,
+        0.8402564231826152,
+        0.8347788965325895,
+        0.8406945640844131
+    ],
+    "f1_weighted_std_dev": [
+        0.0036360364489318566,
+        0.004991839226437768,
+        0.007432103524397442,
+        0.0038414589897398394,
+        0.0036522324073999307,
+        0.0034380500395890614,
+        0.0038877679539135964,
+        0.0035861734346781665,
+        0.0036360364489318566,
+        0.004991839226437768,
+        0.007432103524397442,
+        0.0038414589897398394,
+        0.0036522324073999307,
+        0.0034380500395890614,
+        0.0038877679539135964,
+        0.0035861734346781665,
+        0.0046109106809526885,
+        0.0027575268795027677,
+        0.006991657341867072,
+        0.0029485384004377265,
+        0.004650203884577904,
+        0.00413590236013325,
+        0.004649375855991365,
+        0.0029733098674761347,
+        0.0046109106809526885,
+        0.0027575268795027677,
+        0.006991657341867072,
+        0.0029485384004377265,
+        0.004650203884577904,
+        0.00413590236013325,
+        0.004649375855991365,
+        0.0029733098674761347,
+        0.0036125167438855414,
+        0.0038241151667356326,
+        0.004595048210123051,
+        0.005507098760275095,
+        0.0036700790936651326,
+        0.0031484088723544184,
+        0.003934784362681474,
+        0.002395431257835611,
+        0.0036125167438855414,
+        0.0038241151667356326,
+        0.004595048210123051,
+        0.005507098760275095,
+        0.0036700790936651326,
+        0.0031484088723544184,
+        0.003934784362681474,
+        0.002395431257835611,
+        0.004052593737858887,
+        0.003002315693777071,
+        0.007145885251980492,
+        0.0028959586295114518,
+        0.00428308860195013,
+        0.002912879793693853,
+        0.004085180051147094,
+        0.002245709272280238,
+        0.004052593737858887,
+        0.003002315693777071,
+        0.007145885251980492,
+        0.0028959586295114518,
+        0.00428308860195013,
+        0.002912879793693853,
+        0.004085180051147094,
+        0.002245709272280238
+    ],
+    "params": [
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": "<function pp_SnowballStemmer at 0x7fcad252a550>",
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.5,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.001,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.5,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 6,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        },
+        {
+            "vectorizer": "<class 'sklearn.feature_extraction.text.CountVectorizer'>",
+            "vectorizer__ngram_range": [
+                1,
+                3
+            ],
+            "vectorizer__preprocessor": null,
+            "vectorizer__max_df": 0.9,
+            "classifier__learning_rate": 0.1,
+            "classifier__n_estimators": 500,
+            "classifier__colsample_bytree": 0.9,
+            "classifier__max_depth": 12,
+            "classifier": "<class 'xgboost.sklearn.XGBClassifier'>"
+        }
+    ]
+}

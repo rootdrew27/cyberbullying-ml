@@ -1,6 +1,6 @@
 from catboost import CatBoostClassifier
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import StratifiedKFold, train_test_split, cross_validate
+from sklearn.model_selection import StratifiedKFold, train_test_split, cross_validate, KFold
 
 from nltk.stem.snowball import SnowballStemmer
 # from nltk.stem.porter import PorterStemmer
@@ -74,7 +74,7 @@ if __name__ == '__main__':
             'vectorizer__ngram_range': [(1,1), (1,3)],
             'vectorizer__preprocessor': [pp_SnowballStemmer, None],
             'vectorizer__max_df': [0.5, 0.9],
-            'classifier__learning_rate': [0.001, 0.1],
+            'classifier__learning_rate': [0.01, 0.1],
             'classifier__n_estimators': [1000],
             'classifier__rsm': [0.75, 1],
             'classifier__depth': [6, 10],
@@ -85,11 +85,13 @@ if __name__ == '__main__':
         keys = catb_param_grid.keys()
         param_sets = [params for params in itertools.product(*iters)]
         # calculate the scale_pos_weight
-        pos_weight = (y_train == 0).sum() / (y_train == 1).sum()
-        logging.info(f'The positive weight is {pos_weight:.4f}\n')
+        # pos_weight = (y_train == 0).sum() / (y_train == 1).sum()
+        # logging.info(f'The positive weight is {pos_weight:.4f}\n')
         all_results = {
             'fit_time_mean': [],
             'fit_time_std_dev': [],
+            'roc_auc_score': [],
+            'average_precision': [],
             'f1_macro_mean': [],
             'f1_macro_std_dev': [],
             'f1_weighted_mean': [],
@@ -117,41 +119,40 @@ if __name__ == '__main__':
                     classifier_params[p_name] = t[k]
 
             vect = t['vectorizer'](**vect_params)
-            classifier = t['classifier'](early_stopping_rounds=10, eval_metric='Logloss', scale_pos_weight=pos_weight, **classifier_params)
+            classifier = t['classifier'](early_stopping_rounds=7, eval_metric='Logloss', **classifier_params)
 
             x_train_copy = vect.fit_transform(x_train.copy())
             x_val_copy = vect.transform(x_val.copy())
             y_train_copy = y_train.copy()
             y_val_copy = y_val.copy()
 
-            skf = StratifiedKFold(n_splits=N_SPLITS, shuffle=True, random_state=RANDOM_SEED)
+            skf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=RANDOM_SEED)
 
             cv_results: dict = cross_validate(
                 classifier,
                 x_train_copy,
                 y_train_copy,
                 cv=skf,
-                scoring=['f1_macro', 'f1_weighted'],
+                scoring=['roc_auc_ovr', 'average_precision', 'f1_score', 'f1_weighted'],
                 verbose=10,
                 return_estimator=False,
-                params={'eval_set':[(x_val_copy, y_val_copy)]},
+                params={'eval_set': [(x_val_copy, y_val_copy)]},
                 n_jobs=-1
             )
 
             logging.info(f'The cv results for run {idx} are:\n{pd.DataFrame(cv_results)}\n')
 
-            cv_results['params'] = t
-            cv_results['fit_time_mean'] = np.mean(cv_results['fit_time'])
-            cv_results['fit_time_std_dev'] = np.std(cv_results.pop('fit_time'))
-            cv_results['f1_macro_mean'] = np.mean(cv_results['test_f1_macro'])
-            cv_results['f1_macro_std_dev'] = np.std(cv_results.pop('test_f1_macro'))
-            cv_results['f1_weighted_mean'] = np.mean(cv_results['test_f1_weighted'])
-            cv_results['f1_weighted_std_dev'] = np.std(cv_results.pop('test_f1_weighted'))
-
-            cv_results.pop('score_time')
-
-            for key, value in cv_results.items():
-                all_results[key].append(value)
+            all_results['params'].append(t)
+            all_results['fit_time_mean'].append(np.mean(cv_results['fit_time']))
+            all_results['fit_time_std_dev'].append(np.std(cv_results['fit_time']))
+            all_results['roc_auc_score_mean'].append(np.mean(cv_results['roc_auc_score']))
+            all_results['roc_auc_socre_std_dev'].append(np.std(cv_results['roc_auc_score']))
+            all_results['average_precision_mean'].append(np.mean(cv_results['average_precision']))
+            all_results['average_precision_std_dev'].append(np.std(cv_results['average_precision']))
+            all_results['f1_macro_mean'].append(np.mean(cv_results['test_f1_macro']))
+            all_results['f1_macro_std_dev'].append(np.std(cv_results['test_f1_macro']))
+            all_results['f1_weighted_mean'].append(np.mean(cv_results['test_f1_weighted']))
+            all_results['f1_weighted_std_dev'].append(np.std(cv_results['test_f1_weighted']))
 
             with open(f'results/{FNAME}__results.json', 'w+') as f:
                 json.dump(all_results, f, default=str)
